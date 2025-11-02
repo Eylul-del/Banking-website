@@ -1,6 +1,6 @@
-import IconContainer11 from '../assets/images/icon/Icon Container (11).png';
-import IconContainer1 from '../assets/images/icon/Icon Container (1).png';
-import IconContainer2 from '../assets/images/icon/Icon Container (2).png';
+import IconContainer11 from "../assets/images/icon/Icon Container (11).png";
+import IconContainer1 from "../assets/images/icon/Icon Container (1).png";
+import IconContainer2 from "../assets/images/icon/Icon Container (2).png";
 
 export default function BusinessProducts() {
   return (
