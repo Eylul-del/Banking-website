@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../components/style/login.css";
+import "../components/style/Login.css";
 import OurTestimonials from "./OurTestimonials.jsx";
 import Icon from "../assets/images/img/Login/Icon.png";
 import Icon1 from "../assets/images/img/Login/Icon1.png";

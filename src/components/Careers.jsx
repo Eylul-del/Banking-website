@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "../components/style/Carees.css";
 import FAQ from "./FAQ.jsx";
 import OpenAccount from "./OpenAccount.jsx";
-import signUp from "./SignUp.jsx";
 import mainImage from "../assets/images/img/Careers/mainImage.png";
 import IconContainer from "../assets/images/img/Careers/Icon Container.png";
 import IconContainer1 from "../assets/images/img/Careers/Icon Container (1).png";
