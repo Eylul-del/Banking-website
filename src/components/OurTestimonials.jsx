@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../components/style/Home.css";
-import IndividualTest from "./individualTest";
-import BuisnessTest from "./BuisnessTest";
+import IndividualTest from "./IndividualTest.jsx";
+import BuisnessTest from "./BuisnessTest.jsx";
 
 export default function OurTestimonials() {
   const [activeSection, setActiveSection] = useState("individual");
