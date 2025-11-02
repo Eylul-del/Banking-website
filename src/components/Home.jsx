@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style/Home.css";
 import OpenAccount from "./OpenAccount.jsx";
-import mainSubImg from "../assets/images/icon/icon.png";
+import mainSubImg from "../assets/images/icon/Icon.png";
 import monthIncomeCard from "../assets/images/icon/Icon Container.png";
 import mainTransactionCard from "../assets/images/img/Container (1).png";
 import indiaIcon from "../assets/images/icon/indiaIcon.png";
