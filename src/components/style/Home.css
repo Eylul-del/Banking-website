@@ -1,28 +1,28 @@
 :root {
-  --green60: #CAFF33;
-  --green65: #D1FF4D;
-  --green70: #D8FF66;
-  --green80: #E5FF99;
-  --green90: #F2FFCC;
-  --green95: #F8FFE5;
-  --green97: #FBFFF0;
-  --green99: #FEFFFA;
+  --green60: #caff33;
+  --green65: #d1ff4d;
+  --green70: #d8ff66;
+  --green80: #e5ff99;
+  --green90: #f2ffcc;
+  --green95: #f8ffe5;
+  --green97: #fbfff0;
+  --green99: #fefffa;
 
-  --white90: #E4E4E7;
-  --white95: #F1F1F3;
-  --white97: #F7F7F8;
-  --white99: #FCFCFD;
+  --white90: #e4e4e7;
+  --white95: #f1f1f3;
+  --white97: #f7f7f8;
+  --white99: #fcfcfd;
 
-  --gray10: #1A1A1A;
-  --gray11: #1C1C1C;
+  --gray10: #1a1a1a;
+  --gray11: #1c1c1c;
   --gray15: #262626;
   --gray20: #333333;
-  --gray30: #4C4C4D;
-  --gray35: #59595A;
+  --gray30: #4c4c4d;
+  --gray35: #59595a;
   --gray40: #656567;
-  --gray60: #98989A;
-  --gray70: #B3B3B3;
-  --gray75: #BFBFBF;
+  --gray60: #98989a;
+  --gray70: #b3b3b3;
+  --gray75: #bfbfbf;
 }
 
 body {
@@ -40,253 +40,252 @@ body {
   align-items: center;
 }
 
-
-main{  
-    width: 100%;
-    max-width: 1200px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    height: 700px;
-    margin: 100px auto;
-    overflow-x: hidden;
-    background-color: var(--gray11);
-    border-radius: 30px;
+main {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 700px;
+  margin: 100px auto;
+  overflow-x: hidden;
+  background-color: var(--gray11);
+  border-radius: 30px;
 }
 
-main div{
-    width: 40%;
+main div {
+  width: 40%;
 }
 
-main .colOne{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 500px;
-    margin-left: -50px;
-    color: white;
+main .colOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  margin-left: -50px;
+  color: white;
 }
 
-.mainSub1{
-    width: fit-content;
-    height: 40px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 10px;
-    box-sizing: border-box;
-    padding: 15px;
-    border-radius: 30px;
-    color: white;
-    background-color: var(--gray15);
+.mainSub1 {
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
+  background-color: var(--gray15);
 }
 
-.mainTitle{
-    width: 100%;
+.mainTitle {
+  width: 100%;
 }
 
-.colOne .mainTitle h1{
-    width: 100%;
-    line-height: 50px;
-    letter-spacing: 0.5px;
-    font-size: 43px;
+.colOne .mainTitle h1 {
+  width: 100%;
+  line-height: 50px;
+  letter-spacing: 0.5px;
+  font-size: 43px;
 }
 
-.mainSub2{
-    width: 100%;
-    line-height: 25px;
+.mainSub2 {
+  width: 100%;
+  line-height: 25px;
 }
 
-.mainSub2 p{
-    width: inherit;
+.mainSub2 p {
+  width: inherit;
 }
 
-.colOne .mainTitle h1 span{
-    color: var(--green60);
+.colOne .mainTitle h1 span {
+  color: var(--green60);
 }
 
-.colOne .openAccount{
-    width: fit-content;
-    height: 45px;
-    border-radius: 40px;
-    padding: 10px 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
-    background-color: var(--green65);
+.colOne .openAccount {
+  width: fit-content;
+  height: 45px;
+  border-radius: 40px;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  background-color: var(--green65);
 }
 
-.openAccount a{
-    text-decoration: none;
-    color:  black;
+.openAccount a {
+  text-decoration: none;
+  color: black;
 }
 
-main .colTwo{
-    position: relative;
-    height: 550px;
-    width: 40%;
-    display: flex;
-    align-items: flex-end;
-    color: white;
-    z-index: 2;
-    border-radius: 20px;
-    box-sizing: border-box;
-    padding: 20px;
-    background-color: var(--gray10);
-    border: 2px solid var(--gray15);
+main .colTwo {
+  position: relative;
+  height: 550px;
+  width: 40%;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  z-index: 2;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: var(--gray10);
+  border: 2px solid var(--gray15);
 }
 
-.colTwo .cardImg{
-    width: 95%;
+.colTwo .cardImg {
+  width: 95%;
 }
 
-.cardImg img{
-    width: inherit;
+.cardImg img {
+  width: inherit;
 }
 
-.colTwo .cardImg p{
-    font-size: 25px;
+.colTwo .cardImg p {
+  font-size: 25px;
 }
 
-main .monthIncomeCard{
-    position: absolute;
-    top: -45px;
-    left: -60px;
-    width: 210px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    box-sizing: border-box;
-    padding: 10px 10px 20px 15px;
-    border-radius: 15px;
-    background-color: #22251B;
+main .monthIncomeCard {
+  position: absolute;
+  top: -45px;
+  left: -60px;
+  width: 210px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-sizing: border-box;
+  padding: 10px 10px 20px 15px;
+  border-radius: 15px;
+  background-color: #22251b;
 }
 
-.monthIncomeCard .text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 100%;
-    letter-spacing: 0.5px;
-    color: white;
-    line-height: 10px;
-    margin-bottom: 10px;
+.monthIncomeCard .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100%;
+  letter-spacing: 0.5px;
+  color: white;
+  line-height: 10px;
+  margin-bottom: 10px;
 }
 
 .monthIncomeCard p,
-.monthIncomeCard span{
-    display: flex;
-    align-items: center;
-    width: 100% !important;
+.monthIncomeCard span {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
 }
 
-.monthIncomeCard img{
-    width: 40px;
-    height: 40px;
+.monthIncomeCard img {
+  width: 40px;
+  height: 40px;
 }
 
-.rightImg{
-    position: absolute;
-    right: -140px;
-    top: 0;
-    z-index: 0;
+.rightImg {
+  position: absolute;
+  right: -140px;
+  top: 0;
+  z-index: 0;
 }
 
 .colTwo .mainTransactionsCard,
-.cardContent{
-    width: 100%;
+.cardContent {
+  width: 100%;
 }
 
-main .colTwo .mainTransactionsCard .countries{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 15px;
-    background-color: var(--gray11);
-    border: 1px solid var(--gray15);
+main .colTwo .mainTransactionsCard .countries {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: var(--gray11);
+  border: 1px solid var(--gray15);
 }
 
-.countries .countryCard{
-    width: 50%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 5px 15px;
+.countries .countryCard {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5px 15px;
 }
 
-.countryCard:first-child{
+.countryCard:first-child {
   border-right: 1px solid var(--gray15);
 }
 
-.countryIcon{
-    width: 100%;
+.countryIcon {
+  width: 100%;
 }
 
-.countries .countryCard .countryIcon div{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 10px;
-    box-sizing: border-box;
-    padding: 5px;
-    width: 100%;
-    border-bottom: 2px solid var(--gray15);
+.countries .countryCard .countryIcon div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  border-bottom: 2px solid var(--gray15);
 }
 
-.colTwo .exchangeBtn{
-    border: 1px solid var(--gray15);
-    width: 90%;
-    margin: 20px auto 10px;
-    border-radius: 30px;
+.colTwo .exchangeBtn {
+  border: 1px solid var(--gray15);
+  width: 90%;
+  margin: 20px auto 10px;
+  border-radius: 30px;
 }
 
-.exchangeBtn button{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 30px;
-    border: none;
-    color: var(--green65);
-    cursor: pointer;
-    background-color: #22251B;
+.exchangeBtn button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  color: var(--green65);
+  cursor: pointer;
+  background-color: #22251b;
 }
 
-.supportedCurrency{
-    position: absolute;
-    bottom: -70px;
-    right: 0;
-    width: 100%;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    box-sizing: border-box;
-    padding: 5px 0;
-    color: white;
-    border-radius: 40px;
-    border: 1px solid var(--gray20);
+.supportedCurrency {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 5px 0;
+  color: white;
+  border-radius: 40px;
+  border: 1px solid var(--gray20);
 }
 
-.currencies{
-    height: 100%;
-    width: 40%;
+.currencies {
+  height: 100%;
+  width: 40%;
 }
 
-.supportedCurrency img{
-    height: 100%;
-    width: 100%;
+.supportedCurrency img {
+  height: 100%;
+  width: 100%;
 }
 
-.ourProducts .btns{
+.ourProducts .btns {
   display: flex !important;
   flex-direction: row !important;
   justify-content: space-around;
@@ -297,7 +296,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 150px auto;
 }
 
-.sectionHeader{
+.sectionHeader {
   display: flex;
   align-items: center;
   height: 150px;
@@ -307,7 +306,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 0 auto;
 }
 
-.ourFeatures .sectionHeader{
+.ourFeatures .sectionHeader {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -316,7 +315,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 0 auto;
 }
 
-.sectionHeader .text{
+.sectionHeader .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -325,16 +324,16 @@ main .colTwo .mainTransactionsCard .countries{
   height: 120px;
 }
 
-.sectionHeader .text h2{
+.sectionHeader .text h2 {
   font-size: 33px;
   color: white;
 }
 
-.sectionHeader .text h2 span{
+.sectionHeader .text h2 span {
   color: var(--green65);
 }
 
-.sectionHeader .text p{
+.sectionHeader .text p {
   color: var(--gray70);
   display: flex;
   width: 90%;
@@ -342,7 +341,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin-top: 0px;
 }
 
-.btns{
+.btns {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -355,7 +354,7 @@ main .colTwo .mainTransactionsCard .countries{
   padding: 10px;
 }
 
-.btns button{
+.btns button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,23 +375,23 @@ main .colTwo .mainTransactionsCard .countries{
   color: #000 !important;
 }
 
-.btns button:first-child.active:last-child{
+.btns button:first-child.active:last-child {
   border: 1px solid var(--gray15);
   background-color: transparent !important;
   color: white !important;
 }
 
-.btns button:first-child{
+.btns button:first-child {
   background-color: transparent;
   color: white;
 }
 
-.btns button:last-child{
+.btns button:last-child {
   background-color: transparent;
   color: white;
 }
 
-.productsCards{
+.productsCards {
   width: 90%;
   height: fit-content;
   display: flex;
@@ -402,7 +401,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 40px auto 0;
 }
 
-.productsCards .card{
+.productsCards .card {
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -414,32 +413,31 @@ main .colTwo .mainTransactionsCard .countries{
 }
 
 .card .img,
-.card .img img{
+.card .img img {
   width: 80px;
   height: 80px;
   margin: 0 auto 10px;
 }
 
-.card .title{
+.card .title {
   color: white;
 }
 
-.card .text{
+.card .text {
   width: 100%;
   color: var(--gray70);
   line-height: 23px;
 }
 
-.productsCards .card:not(:last-child){
+.productsCards .card:not(:last-child) {
   border-right: 2px solid var(--gray15);
 }
 
-.useCases{
+.useCases {
   margin: -50px auto 50px;
 }
 
-
-.useCasesContent{
+.useCasesContent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -448,7 +446,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 30px auto;
 }
 
-.col{
+.col {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -456,13 +454,13 @@ main .colTwo .mainTransactionsCard .countries{
   margin-top: 40px;
 }
 
-.col .features{
+.col .features {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px ;
+  gap: 20px;
   box-sizing: border-box;
   padding: 20px;
   border-radius: 20px;
@@ -470,7 +468,7 @@ main .colTwo .mainTransactionsCard .countries{
   border: 2px solid var(--gray15);
 }
 
-.features .feature{
+.features .feature {
   width: 45%;
   height: 150px;
   text-align: center;
@@ -482,56 +480,56 @@ main .colTwo .mainTransactionsCard .countries{
   background-color: var(--gray10);
 }
 
-.feature img{
+.feature img {
   width: 70px;
   height: 70px;
   margin: 0 auto 10px;
 }
 
-.feature p{
+.feature p {
   margin-top: 0px;
   color: white;
 }
 
-.colDescription{
+.colDescription {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 400px;
 }
 
-.colDescription h3{
+.colDescription h3 {
   color: white;
   font-size: 23px;
 }
 
-.colDescription .text p{
+.colDescription .text p {
   color: var(--gray70);
 }
 
-.achievement{
+.achievement {
   display: flex;
   gap: 5%;
   margin: 30px auto;
 }
 
-.achievement div{
+.achievement div {
   width: calc(90% / 3);
   height: auto;
 }
 
-.achievement div span{
+.achievement div span {
   color: var(--green65);
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
-.achievement div p{
+.achievement div p {
   color: var(--gray70);
 }
 
-.learnMore{
+.learnMore {
   width: 25%;
   height: 40px;
   padding: 5px;
@@ -542,7 +540,7 @@ main .colTwo .mainTransactionsCard .countries{
   border: 2px solid var(--gray15);
 }
 
-.learnMore button{
+.learnMore button {
   height: inherit;
   width: 100%;
   border-radius: inherit;
@@ -551,11 +549,11 @@ main .colTwo .mainTransactionsCard .countries{
   color: white;
 }
 
-.ourFeatures{
+.ourFeatures {
   margin: 100px auto;
 }
 
-.ourFeatures .sectionContent{
+.ourFeatures .sectionContent {
   display: flex !important;
   justify-content: space-around;
   align-items: center;
@@ -567,7 +565,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 50px auto 0px !important;
 }
 
-.featuresOptions{
+.featuresOptions {
   height: auto;
   width: 25%;
   display: flex;
@@ -585,7 +583,7 @@ main .colTwo .mainTransactionsCard .countries{
   border-radius: 20px;
 }
 
-.featuresOptions button.active{
+.featuresOptions button.active {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -599,14 +597,14 @@ main .colTwo .mainTransactionsCard .countries{
   border: 2px solid var(--gray15);
 }
 
-.featuresOptions button{
+.featuresOptions button {
   background-color: transparent;
   border: none;
   font-size: 20px;
   color: var(--gray70);
 }
 
-.featuresContainer{
+.featuresContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -616,7 +614,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 0;
 }
 
-.featuresContainer .featureCard{
+.featuresContainer .featureCard {
   width: 49%;
   border-radius: 20px;
   box-sizing: border-box;
@@ -624,12 +622,12 @@ main .colTwo .mainTransactionsCard .countries{
   background-color: var(--gray11);
 }
 
-.featureCard p{
+.featureCard p {
   color: var(--gray70);
   line-height: 150%;
 }
 
-.questions{
+.questions {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -640,7 +638,7 @@ main .colTwo .mainTransactionsCard .countries{
   margin: 50px auto 100px;
 }
 
-.questions .questionCard{
+.questions .questionCard {
   width: 45%;
   height: 400px;
   background-color: var(--gray11);
@@ -650,13 +648,13 @@ main .colTwo .mainTransactionsCard .countries{
   padding: 20px;
 }
 
-.questionCard .title{
+.questionCard .title {
   color: white;
   font-size: 15px;
   border-bottom: 2px solid var(--gray20);
 }
 
-.questionCard .text{
+.questionCard .text {
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -667,7 +665,7 @@ main .colTwo .mainTransactionsCard .countries{
   color: var(--gray70);
 }
 
-.testimonialsCards{
+.testimonialsCards {
   width: 90%;
   height: 350px;
   margin: 100px auto;
@@ -677,7 +675,7 @@ main .colTwo .mainTransactionsCard .countries{
   align-items: center;
 }
 
-.testimonialsCards .card{
+.testimonialsCards .card {
   width: 27%;
   height: 330px;
   display: flex;
@@ -692,30 +690,29 @@ main .colTwo .mainTransactionsCard .countries{
   border-radius: 20px;
 }
 
-.card img{
+.card img {
   position: relative;
   top: -60px;
   z-index: 99;
   background-color: var(--gray11);
 }
 
-.card .opinion{
+.card .opinion {
   color: var(--gray70);
   line-height: 150%;
   height: 70%;
 }
 
-.card .name{
+.card .name {
   color: var(--green65);
   font-size: 20px;
 }
 
-
-.lastOpenAccount{
+.lastOpenAccount {
   width: 100%;
   height: 250px;
   margin: 50px auto;
-  display: flex ;
+  display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
@@ -725,7 +722,7 @@ main .colTwo .mainTransactionsCard .countries{
   background-color: var(--gray11);
 }
 
-.lastOpenAccount .sectionHeader{
+.lastOpenAccount .sectionHeader {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -734,12 +731,12 @@ main .colTwo .mainTransactionsCard .countries{
   height: fit-content;
 }
 
-.lastOpenAccount .sectionHeader .text{
+.lastOpenAccount .sectionHeader .text {
   width: 80%;
   height: auto;
 }
 
-.lastOpenAccount .btn{
+.lastOpenAccount .btn {
   height: 50px;
   width: 15%;
   display: flex;
@@ -752,11 +749,10 @@ main .colTwo .mainTransactionsCard .countries{
   background-color: var(--green65);
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
   color: black;
 }
-
 
 @media screen and (min-width: 2560px) {
   body {
@@ -782,7 +778,7 @@ main .colTwo .mainTransactionsCard .countries{
     height: auto !important;
   }
 
-  main{
+  main {
     width: 100% !important;
     max-width: 2560px;
     min-height: 80vh;
@@ -798,22 +794,22 @@ main .colTwo .mainTransactionsCard .countries{
     line-height: 65px;
   }
 
-  .colOne p{
+  .colOne p {
     font-size: 2.2rem;
     line-height: 150%;
   }
 
-  .colOne .openAccount{
+  .colOne .openAccount {
     padding: 35px;
     width: fit-content;
     font-size: 2rem;
   }
 
-  .colTwo{
+  .colTwo {
     height: 82% !important;
   }
 
-  .supportedCurrency{
+  .supportedCurrency {
     width: 100% !important;
     bottom: 10px !important;
     right: 15%;
@@ -821,7 +817,7 @@ main .colTwo .mainTransactionsCard .countries{
     max-width: 70% !important;
   }
 
-  .colTwo .cardImg p{
+  .colTwo .cardImg p {
     font-size: 2rem !important;
   }
 
@@ -829,48 +825,48 @@ main .colTwo .mainTransactionsCard .countries{
     font-size: 2rem !important;
   }
 
-  .exchangeBtn button{
+  .exchangeBtn button {
     font-size: 2rem !important;
   }
 
-  .rightImg{
+  .rightImg {
     right: -300px !important;
   }
 
-  .rightImg img{
-        height: 500px;
+  .rightImg img {
+    height: 500px;
     width: 500px;
   }
 
-  .monthIncomeCard{
+  .monthIncomeCard {
     top: -60px !important;
     font-size: 1.8rem;
     width: 45% !important;
     height: fit-content !important;
   }
 
-  .monthIncomeCard .text{
+  .monthIncomeCard .text {
     width: 70%;
   }
 
-  .monthIncomeCard img{
+  .monthIncomeCard img {
     height: 90px;
     width: 90px;
   }
 
-  .supportedCurrency{
+  .supportedCurrency {
     font-size: 1.8rem;
     height: 75px;
     bottom: -100px !important;
   }
 
-  .ourFeatures .sectionContent{
+  .ourFeatures .sectionContent {
     display: flex !important;
     flex-wrap: nowrap !important;
     height: auto !important;
   }
 
-  .featuresContainer{
+  .featuresContainer {
     width: 90% !important;
   }
 
@@ -878,19 +874,19 @@ main .colTwo .mainTransactionsCard .countries{
     padding: 30px;
   }
 
-  .testimonialsCards{
+  .testimonialsCards {
     margin: 0 auto;
   }
 
-  .popularQuestions .sectionHeader .text h2{
+  .popularQuestions .sectionHeader .text h2 {
     font-size: 3rem !important;
   }
 
-  .popularQuestions .sectionHeader .text p{
+  .popularQuestions .sectionHeader .text p {
     font-size: 2rem;
   }
 
-  .popularQuestions .questionCard{
+  .popularQuestions .questionCard {
     width: 47%;
     height: 650px !important;
   }
@@ -899,47 +895,47 @@ main .colTwo .mainTransactionsCard .countries{
     font-size: 2rem !important;
   }
 
-  .questionCard p{
-        font-size: 2rem;
-        line-height: 150%;
+  .questionCard p {
+    font-size: 2rem;
+    line-height: 150%;
   }
 
-  .lastOpenAccount{
+  .lastOpenAccount {
     padding: 50px !important;
     width: 80%;
   }
 }
 
 @media (max-width: 1920px) {
-  .pageContainer{
+  .pageContainer {
     width: 100% !important;
   }
 
-  main{
+  main {
     width: 100% !important;
     min-height: auto;
     max-width: none;
     overflow-x: hidden !important;
   }
-  
-  main .colTwo{
+
+  main .colTwo {
     height: 80% !important;
-    width: 40% !important;
+    min-width: 40% !important;
   }
 
-  .monthIncomeCard{
+  .monthIncomeCard {
     top: -70px !important;
   }
 
-  .sectionHeader .text h2{
+  .sectionHeader .text h2 {
     font-size: 2rem !important;
   }
 
-  .sectionHeader .text p{
+  .sectionHeader .text p {
     font-size: 1.2rem !important;
   }
 
-  .ourProducts .productsCards{
+  .ourProducts .productsCards {
     gap: 30px;
     height: auto !important;
   }
@@ -949,58 +945,58 @@ main .colTwo .mainTransactionsCard .countries{
     background-color: var(--gray11);
   }
 
-  .ourProducts .card img{
-    top: 0 ;
+  .ourProducts .card img {
+    top: 0;
   }
 
-  .ourProducts .card p{
+  .ourProducts .card p {
     font-size: 1rem !important;
   }
 
-  .useCases{
+  .useCases {
     margin: 50px auto 0;
   }
 
-  .questionCard{
+  .questionCard {
     height: 350px !important;
     width: 45% !important;
   }
 
-  .questionCard .title{
+  .questionCard .title {
     font-size: 1.15rem;
   }
 
-  .questionCard p{
+  .questionCard p {
     font-size: 1.1rem;
   }
 
-  .ourTestimonials .card{
+  .ourTestimonials .card {
     overflow: visible;
   }
 
-  .ourTestimonials .card p{
+  .ourTestimonials .card p {
     font-size: 1.1rem !important;
   }
 }
 
-@media (max-width:1440px) {
-  main{
+@media (max-width: 1440px) {
+  main {
     height: 80vh !important;
     min-height: 85vh;
-    }
+  }
 
-    .questionCard p{
-      font-size: 1.2rem !important;
-    }
+  .questionCard p {
+    font-size: 1.2rem !important;
+  }
 }
 
-@media (max-width:1025px) {
-  .pageContainer{
+@media (max-width: 1025px) {
+  .pageContainer {
     width: 80% !important;
     max-width: 1025px !important;
   }
-  
-  main{
+
+  main {
     width: 90% !important;
     min-height: 100vh;
     gap: 0px !important;
@@ -1016,70 +1012,69 @@ main .colTwo .mainTransactionsCard .countries{
   .testimonialsCards,
   .questions,
   .sectionHeader,
-  .sectionContent{
+  .sectionContent {
     height: auto;
     width: 90% !important;
   }
 
   .colOne,
-  .colTwo{
-    width: 43% !important;
+  .colTwo {
     height: auto !important;
+    min-width: 43% !important;
   }
 
-  .colOne .mainSub1{
+  .colOne .mainSub1 {
     font-size: small;
   }
 
-  main .colOne h1{
+  main .colOne h1 {
     font-size: 30px !important;
   }
 
-  .colOne .openAccount{
+  .colOne .openAccount {
     margin: 0;
   }
 
-  .rightImg{
+  .rightImg {
     top: 10px;
     right: 70px;
   }
 
-  .monthIncomeCard{
+  .monthIncomeCard {
     height: auto !important;
     font-size: small;
     padding: 0 10px !important;
     top: -30px !important;
   }
 
-  .monthIncomeCard img{
+  .monthIncomeCard img {
     height: 30px !important;
     width: 30px !important;
   }
 
-  .colTwo h2{
+  .colTwo h2 {
     font-size: 18px;
   }
 
-  .ourProducts .sectionHeader{
+  .ourProducts .sectionHeader {
     height: 150px !important;
     padding: 0 !important;
-
   }
 
-  .ourProducts .btns{
+  .ourProducts .btns {
     display: flex !important;
     flex-direction: row;
     padding: 5px;
     width: 35% !important;
   }
 
-  .btns button{
+  .btns button {
     font-size: 11px !important;
     width: 45% !important;
     height: auto;
   }
 
-  .ourProducts .productsCards{
+  .ourProducts .productsCards {
     width: 100%;
     gap: 0 !important;
     justify-content: center;
@@ -1088,7 +1083,7 @@ main .colTwo .mainTransactionsCard .countries{
     margin: 0 auto;
   }
 
-  .productsCards .card{
+  .productsCards .card {
     display: flex;
     flex-direction: column;
     justify-content: center !important;
@@ -1100,108 +1095,108 @@ main .colTwo .mainTransactionsCard .countries{
     border-radius: 30px;
   }
 
-  .productsCards .card .img{
+  .productsCards .card .img {
     margin: 0px auto !important;
   }
 
-  .productsCards .card .img img{
+  .productsCards .card .img img {
     margin: 0 auto !important;
     top: 0;
-  } 
+  }
 
-  .useCases{
+  .useCases {
     margin: 0 auto;
   }
 
-  .useCases .useCasesContent{
+  .useCases .useCasesContent {
     height: auto !important;
     width: 100% !important;
   }
 
-  .useCasesContent .col{
+  .useCasesContent .col {
     height: auto !important;
     font-size: 0.85rem;
   }
 
-  .col .features{
+  .col .features {
     gap: 5px;
     padding: 10px;
   }
 
-  .col .feature{
+  .col .feature {
     width: 49%;
   }
 
-  .col .colDescription{
+  .col .colDescription {
     justify-content: center;
   }
 
-  .colDescription .learnMore{
+  .colDescription .learnMore {
     width: inherit;
   }
 
-  .ourFeatures .sectionContent{
+  .ourFeatures .sectionContent {
     gap: 30px;
     justify-content: space-between !important;
   }
 
-  .featuresOptions{
+  .featuresOptions {
     width: 30%;
     margin: 0;
   }
 
-  .featuresOptions button{
+  .featuresOptions button {
     font-size: 1.1rem !important;
   }
 
-  .sectionContent .featuresContainer{
+  .sectionContent .featuresContainer {
     width: 100% !important;
     flex-wrap: wrap !important;
   }
 
-  .questions{
+  .questions {
     gap: 40px;
   }
 
-  .questionCard{
+  .questionCard {
     width: 45% !important;
     height: 450px !important;
   }
 
-  .questionCard .title h3{
+  .questionCard .title h3 {
     font-size: 1.1rem;
   }
 
-  .testimonialsCards{
+  .testimonialsCards {
     padding: 0 !important;
     gap: 50px;
     flex-wrap: wrap;
   }
 
-  .testimonialsCards .card{
+  .testimonialsCards .card {
     width: 40%;
   }
 
-  .testimonialsCards .card img{
+  .testimonialsCards .card img {
     height: 50px;
   }
 
-  .questionCard p{
+  .questionCard p {
     font-size: 1rem !important;
   }
 
-  .lastOpenAccount{
+  .lastOpenAccount {
     padding: 0;
     height: 250px !important;
   }
 
-  .lastOpenAccount .btn{
+  .lastOpenAccount .btn {
     width: 20%;
   }
 }
 
-@media (max-width:770px) {
-  .pageContainer{
+@media (max-width: 770px) {
+  .pageContainer {
     width: 90% !important;
   }
 
@@ -1209,27 +1204,27 @@ main .colTwo .mainTransactionsCard .countries{
     gap: 5px;
     font-size: 0.8rem;
   }
-  
+
   .ourProducts .sectionHeader,
-  .ourTestimonials .sectionHeader{
+  .ourTestimonials .sectionHeader {
     flex-direction: column !important;
     gap: 30px !important;
     height: auto !important;
   }
 
   .ourProducts .sectionHeader .btns,
-  .ourTestimonials .sectionHeader .btns{
+  .ourTestimonials .sectionHeader .btns {
     height: auto !important;
     width: 50% !important;
     margin: 0 auto 40px;
   }
 
   .ourProducts .sectionHeader .btns button,
-  .ourTestimonials .sectionHeader .btns button{
+  .ourTestimonials .sectionHeader .btns button {
     font-size: 0.95rem !important;
   }
 
-  .col .features .feature{
+  .col .features .feature {
     display: flex;
     flex-direction: column;
     height: 130px;
@@ -1237,12 +1232,12 @@ main .colTwo .mainTransactionsCard .countries{
     width: 48%;
   }
 
-  .col .features .feature img{
+  .col .features .feature img {
     height: 40px;
     width: 40px;
   }
 
-  .col .colDescription .achievement > div span{
+  .col .colDescription .achievement > div span {
     font-size: 30px;
   }
 
@@ -1250,7 +1245,7 @@ main .colTwo .mainTransactionsCard .countries{
     flex-direction: column !important;
   }
 
-  .sectionContent .featuresOptions{
+  .sectionContent .featuresOptions {
     width: 75%;
     display: flex !important;
     flex-direction: row;
@@ -1260,66 +1255,66 @@ main .colTwo .mainTransactionsCard .countries{
     padding: 5px;
   }
 
-  .featuresOptions button{
+  .featuresOptions button {
     width: 30% !important;
     font-size: 0.93rem !important;
   }
 
-  .featuresContainer .featureCard{
+  .featuresContainer .featureCard {
     width: 48%;
   }
 
-  .popularQuestions .sectionHeader p{
+  .popularQuestions .sectionHeader p {
     width: 100%;
   }
 
-  .questions{
+  .questions {
     flex-wrap: wrap;
     gap: 20px;
   }
 
-  .questionCard{
+  .questionCard {
     width: 90% !important;
     height: auto !important;
   }
 
-  .ourTestimonials .sectionHeader{
+  .ourTestimonials .sectionHeader {
     flex-direction: column;
     height: auto !important;
     gap: 40px;
     padding: 0 20px 20px;
   }
 
-  .ourTestimonials .sectionHeader .btns{
+  .ourTestimonials .sectionHeader .btns {
     width: 50%;
   }
 
-  .ourTestimonials .testimonialsCards{
+  .ourTestimonials .testimonialsCards {
     flex-direction: column;
     width: inherit;
     gap: 40px;
     margin: 30px auto;
   }
 
-  .testimonialsCards .card{
+  .testimonialsCards .card {
     width: 90% !important;
     height: auto;
     justify-content: center !important;
     padding: 30px;
   }
 
-  .testimonialsCards .card img{
+  .testimonialsCards .card img {
     top: -30px;
     right: 40px !important;
     position: absolute;
   }
 
-  .lastOpenAccount{
+  .lastOpenAccount {
     height: auto !important;
   }
 
-  .lastOpenAccount .sectionHeader{
-    display: flex ;
+  .lastOpenAccount .sectionHeader {
+    display: flex;
     flex-direction: column !important;
     flex-wrap: wrap !important;
     gap: 20px;
@@ -1327,18 +1322,18 @@ main .colTwo .mainTransactionsCard .countries{
     padding: 0 20px 20px;
   }
 
-  .lastOpenAccount .sectionHeader .text{
+  .lastOpenAccount .sectionHeader .text {
     width: 90% !important;
     height: auto;
   }
 
-  .lastOpenAccount .sectionHeader .btn{
+  .lastOpenAccount .sectionHeader .btn {
     width: 50% !important;
   }
 }
 
 @media (max-width: 426px) {
-  .pageContainer{
+  .pageContainer {
     width: 100% !important;
   }
 
@@ -1381,7 +1376,7 @@ main .colTwo .mainTransactionsCard .countries{
   }
 
   .openAccount {
-    width: 40% !important;
+    min-width: 50% !important;
     margin: 30px auto !important;
   }
 
@@ -1447,81 +1442,80 @@ main .colTwo .mainTransactionsCard .countries{
     position: absolute;
   }
 
-  .ourProducts .btns{
+  .ourProducts .btns {
     margin-top: 70px;
     height: fit-content;
   }
 
-  .ourProducts .sectionHeader{
+  .ourProducts .sectionHeader {
     flex-wrap: wrap;
     height: auto !important;
   }
 
-  .sectionHeader .text{
+  .sectionHeader .text {
     width: 100%;
     height: auto;
     text-align: center;
   }
 
-  .sectionHeader .text h2{
+  .sectionHeader .text h2 {
     text-align: center;
     margin: 20px auto;
   }
 
   .ourProducts .sectionHeader .btns,
-  .ourTestimonials .sectionHeader .btns{
+  .ourTestimonials .sectionHeader .btns {
     width: 80% !important;
     margin: 0 auto;
   }
 
   .ourProducts .sectionHeader .btns button,
-  .ourTestimonials .sectionHeader .btns button{
+  .ourTestimonials .sectionHeader .btns button {
     font-size: 0.75rem !important;
   }
 
-
-  .productsCards{
+  .productsCards {
     width: 100%;
     margin: 50px auto !important;
   }
 
-  .productsCards .card{
-    width: 100%;
-    height: auto  !important;
+  .productsCards .card {
+    min-width: 90%;
+    height: auto !important;
     margin: 10px auto;
     border: none !important;
   }
 
-  .useCasesContent{
+  .useCasesContent {
     width: 100%;
     flex-wrap: wrap;
   }
 
-  .col{
+  .col {
     width: 90%;
   }
 
-  .col:last-child{
+  .col:last-child {
     margin-top: 0;
   }
 
-  .col:last-child .colDescription{
+  .col:last-child .colDescription {
     order: 1;
   }
 
-  .col:last-child .features{
+  .col:last-child .features {
     order: 0;
   }
 
-  .feature{
+  .feature {
     font-size: 12.6px;
   }
 
-  .feature p{
+  .feature p {
     margin-top: 5px;
   }
 
-  .colDescription .text{
+  .colDescription .text {
     text-align: center;
   }
 
@@ -1529,34 +1523,34 @@ main .colTwo .mainTransactionsCard .countries{
     height: auto !important;
   }
 
-  .colDescription .achievement{
+  .colDescription .achievement {
     flex-wrap: wrap;
     margin: 0 auto;
   }
 
-  .achievement div{
+  .achievement div {
     width: 90%;
     text-align: center;
     margin: 20px auto;
   }
 
-  .learnMore{
+  .learnMore {
     width: 40%;
     height: 50px;
     margin: 0px auto;
     cursor: pointer;
   }
 
-  .ourFeatures{
+  .ourFeatures {
     height: fit-content !important;
   }
 
-  .ourFeatures .sectionContent{
+  .ourFeatures .sectionContent {
     height: auto !important;
     flex-wrap: wrap;
   }
 
-  .sectionContent .featuresOptions{
+  .sectionContent .featuresOptions {
     width: 90% !important;
     height: auto;
     margin: 30px auto;
@@ -1566,26 +1560,26 @@ main .colTwo .mainTransactionsCard .countries{
     flex-wrap: wrap !important;
   }
 
-  .sectionContent .featuresOptions button{
+  .sectionContent .featuresOptions button {
     font-size: 0.76rem !important;
   }
 
-  .sectionContent .featuresContainer{
+  .sectionContent .featuresContainer {
     width: 95% !important;
     height: auto !important;
     flex-wrap: wrap;
   }
 
-  .sectionContent .featuresContainer div{
+  .sectionContent .featuresContainer div {
     width: 100% !important;
     display: block;
   }
 
-  .popularQuestions{
+  .popularQuestions {
     margin: 0 auto !important;
   }
 
-  .questions{
+  .questions {
     height: auto !important;
     width: 100% !important;
     flex-wrap: wrap;
@@ -1597,34 +1591,34 @@ main .colTwo .mainTransactionsCard .countries{
     width: 90% !important;
   }
 
-  .testimonialsCards{
+  .testimonialsCards {
     height: auto !important;
     width: 100%;
     gap: 70px;
     flex-wrap: wrap !important;
   }
 
-  .testimonialsCards .card{
+  .testimonialsCards .card {
     height: auto !important;
     width: 90% !important;
   }
 
-  .lastOpenAccount{
+  .lastOpenAccount {
     height: 60vh;
     padding: 10px;
   }
 
-  .lastOpenAccount .sectionHeader{
+  .lastOpenAccount .sectionHeader {
     padding: 20px 0;
     gap: 40px !important;
   }
 
-  .sectionHeader .text{
+  .sectionHeader .text {
     width: 90%;
     gap: 10px;
   }
 
-  .lastOpenAccount .btn{
+  .lastOpenAccount .btn {
     width: 60%;
   }
 }

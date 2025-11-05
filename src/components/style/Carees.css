@@ -1,38 +1,38 @@
 :root {
-  --green60: #CAFF33;
-  --green65: #D1FF4D;
-  --green70: #D8FF66;
+  --green60: #caff33;
+  --green65: #d1ff4d;
+  --green70: #d8ff66;
   --darkGreen70: #d9ff6670;
-  --green80: #E5FF99;
-  --green90: #F2FFCC;
-  --green95: #F8FFE5;
-  --green97: #FBFFF0;
-  --green99: #FEFFFA;
+  --green80: #e5ff99;
+  --green90: #f2ffcc;
+  --green95: #f8ffe5;
+  --green97: #fbfff0;
+  --green99: #fefffa;
 
-  --white90: #E4E4E7;
-  --white95: #F1F1F3;
-  --white97: #F7F7F8;
-  --white99: #FCFCFD;
+  --white90: #e4e4e7;
+  --white95: #f1f1f3;
+  --white97: #f7f7f8;
+  --white99: #fcfcfd;
 
-  --gray10: #1A1A1A;
-  --gray11: #1C1C1C;
+  --gray10: #1a1a1a;
+  --gray11: #1c1c1c;
   --gray15: #262626;
   --gray20: #333333;
-  --gray30: #4C4C4D;
-  --gray35: #59595A;
+  --gray30: #4c4c4d;
+  --gray35: #59595a;
   --gray40: #656567;
-  --gray60: #98989A;
-  --gray70: #B3B3B3;
-  --gray75: #BFBFBF;
-} 
-
- html{
-    width: 100% !important;
+  --gray60: #98989a;
+  --gray70: #b3b3b3;
+  --gray75: #bfbfbf;
 }
 
-body{
-    width: 100% !important;
-    overflow-x: hidden !important;
+html {
+  width: 100% !important;
+}
+
+body {
+  width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 * {
@@ -40,63 +40,62 @@ body{
   max-width: 100%;
 }
 
-
-.pageContainer{
-    width: 90% !important;
-    overflow-x: hidden !important;
+.pageContainer {
+  width: 90% !important;
+  overflow-x: hidden !important;
 }
 
-.careerMain{
-    width: 90%;
-    background-color: var(--gray11);
-    box-sizing: border-box;
-    padding: 30px;
-    display: flex;
-    justify-content:space-around;
-    position: relative;
-    border-radius: 15px;
+.careerMain {
+  width: 90%;
+  background-color: var(--gray11);
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  border-radius: 15px;
 }
 
 .mainTextcontent {
-    width: 40%;
-    height: auto !;
-    position: absolute !important;
-    top: 0px;
-    left: 125px;
-    box-sizing: border-box;
-    padding: 30px;
-    border-radius: 20px;
-    border-bottom-right-radius: 100px;
-    background-color: var(--gray10);
-    z-index: 2;
+  width: 40%;
+  height: auto !;
+  position: absolute !important;
+  top: 0px;
+  left: 125px;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  background-color: var(--gray10);
+  z-index: 2;
 }
 
-.mainTextcontent h1{
-    font-size: 2rem;
-    color: white;
+.mainTextcontent h1 {
+  font-size: 2rem;
+  color: white;
 }
 
-.mainTextcontent h1 span{
-    color: var(--green60);
+.mainTextcontent h1 span {
+  color: var(--green60);
 }
 
-.mainTextcontent p{
-    color: var(--gray70);
-    line-height: 150%;
-    width: 91%;
-    margin: 0 auto;
+.mainTextcontent p {
+  color: var(--gray70);
+  line-height: 150%;
+  width: 91%;
+  margin: 0 auto;
 }
 
-.mainImg{
-    position: static;
-    margin-left: 400px !important;
-    height: 550px;
-    width: 60%;
+.mainImg {
+  position: static;
+  margin-left: 400px !important;
+  height: 550px;
+  width: 60%;
 }
 
-.mainImg img{
-    height: inherit !important;
-    width: 100% !important;
+.mainImg img {
+  height: inherit !important;
+  width: 100% !important;
 }
 
 .mainImg {
@@ -105,824 +104,824 @@ body{
   z-index: 1;
 }
 
-.sectionHeader .text{
-    width: 90%;
+.sectionHeader .text {
+  width: 90%;
 }
 
-.sectionHeader p{
-    width: 100%;
+.sectionHeader p {
+  width: 100%;
 }
 
-.sectionCards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    gap: 50px;
-    height: auto !important;
-    margin: 40px auto;
+.sectionCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 50px;
+  height: auto !important;
+  margin: 40px auto;
 }
 
-.sectionCards .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-    height: 43%;
-    border-radius: 10px;
-    border-left: 4px solid var(--darkGreen70);
-    box-sizing: border-box;
-    padding: 20px;
+.sectionCards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 43%;
+  border-radius: 10px;
+  border-left: 4px solid var(--darkGreen70);
+  box-sizing: border-box;
+  padding: 20px;
 }
 
-.card h2{
-    color: var(--gray30);
-    font-size: 35px;
+.card h2 {
+  color: var(--gray30);
+  font-size: 35px;
 }
 
-.card p{
-    line-height: 150%;
-    color: var(--gray70);
+.card p {
+  line-height: 150%;
+  color: var(--gray70);
 }
 
-.ourBenefits .sectionCards{
-    gap: 50px;
-    height: auto !important;
+.ourBenefits .sectionCards {
+  gap: 50px;
+  height: auto !important;
 }
 
-.ourBenefits .sectionCards .card{
-    border: none;
-    background: var(--gray11);
-    padding: 30px;
-    height: 45%;
-    border-radius: 30px;
+.ourBenefits .sectionCards .card {
+  border: none;
+  background: var(--gray11);
+  padding: 30px;
+  height: 45%;
+  border-radius: 30px;
 }
 
-.ourBenefits .sectionCards .card .title{
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.ourBenefits .sectionCards .card .title {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
-.title img{
-    position: static;
-    width: 70px;
-    height: 70px !important;
+.title img {
+  position: static;
+  width: 70px;
+  height: 70px !important;
 }
 
 .jobOpenings {
-    margin: 100px auto;
+  margin: 100px auto;
 }
 
-.jobOpenings .sectionHeader{
-    margin: 50px auto ;
+.jobOpenings .sectionHeader {
+  margin: 50px auto;
 }
 
-.jobs{
-    width: 90%;
-    height: 220vh !important;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin: 0 auto;
+.jobs {
+  width: 90%;
+  height: 220vh !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0 auto;
 }
 
-
-.jobs .jobCard{
-    width: 40%;
-    height: auto;
-    background-color: var(--gray15);
-    border-radius: 20px;
-    box-sizing: border-box;
-    padding: 30px;
+.jobs .jobCard {
+  width: 40%;
+  height: auto;
+  background-color: var(--gray15);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 30px;
 }
 
-.jobCard .jobTags{
-    height: auto;
-    display: flex;
-    gap: 10px;
+.jobCard .jobTags {
+  height: auto;
+  display: flex;
+  gap: 10px;
 }
 
-.jobTags .tag{
-    box-sizing: border-box;
-    padding: 5px 10px;
-    font-size: 12px;
-    color: var(--gray70);
-    border-radius: 20px;
-    background-color: var(--gray10);
+.jobTags .tag {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: var(--gray70);
+  border-radius: 20px;
+  background-color: var(--gray10);
 }
 
-.jobCard h3{
-    color: white;
+.jobCard h3 {
+  color: white;
 }
 
 .jobCard p,
-.jobCard ul li{
-    color: var(--gray70);
-    line-height: 150%;
-    font-size: 15px;
+.jobCard ul li {
+  color: var(--gray70);
+  line-height: 150%;
+  font-size: 15px;
 }
 
-.jobCard ul{
-    list-style: none;
+.jobCard ul {
+  list-style: none;
 }
 
-.jobCard ul li{
+.jobCard ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.applyBtn {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px 0 10px 30px;
+  background-color: var(--green65);
+  cursor: pointer;
+}
+
+.applyBtn a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+@media (max-width: 2560px) {
+  .careerMain {
+    overflow: visible;
+    position: relative !important;
+    max-height: none !important;
+    min-width: auto !important;
+    height: 55vh !important;
+    width: 90% !important;
+  }
+
+  .mainImg {
+    position: absolute;
+    right: 0;
+    top: 50px !important;
+  }
+
+  .mainImg img {
+    position: absolute;
+    height: auto !important;
+  }
+
+  .mainTextcontent {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    position: relative !important;
+    left: -450px;
+    top: -60px !important;
+    height: auto !important;
+    min-height: 80% !important;
+  }
 
-}
+  .mainTextcontent h1 {
+    font-size: 4rem !important;
+  }
 
-.applyBtn{
-    padding: 10px 15px;
-    border-radius: 20px;
-    border: none;
-    margin: 10px 0 10px 30px;
-    background-color: var(--green65);
-    cursor: pointer;
-}
+  .mainTextcontent p {
+    font-size: 2rem;
+  }
 
-.applyBtn a{
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-}
+  .ourValues,
+  .ourBenefits,
+  .jobOpenings {
+    height: auto;
+    width: 90% !important;
+    margin: 50px auto;
+    font-size: xx-large !important;
+  }
 
-@media (max-width:2560px) {
-    .careerMain{
-        overflow: visible;
-        position: relative !important;
-        max-height: none !important;
-        min-width: auto !important;
-        height: 55vh !important;
-        width: 90% !important;
-    }
+  .ourValues .sectionHeader,
+  .ourBenefits .sectionHeader,
+  .jobOpenings .sectionHeader {
+    margin: 30px auto 70px;
+  }
 
-    .mainImg {
-        position: absolute;
-        right: 0;
-        top: 50px !important;
-    }
+  .ourValues .sectionHeader .text h2,
+  .ourBenefits .sectionHeader .text h2,
+  .jobOpenings .sectionHeader .text h2 {
+    font-size: 3rem !important;
+  }
 
-    .mainImg img{
-        position: absolute;
-        height: auto !important;
-    }
+  .ourValues .sectionHeader p,
+  .ourBenefits .sectionHeader p,
+  .jobOpenings .sectionHeader p {
+    font-size: 2rem;
+  }
 
-    .mainTextcontent{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative !important;
-        left: -450px;
-        top: -60px !important;
-        height: auto !important;
-        min-height: 80% !important;
-    }
+  .sectionCards {
+    margin: 150px auto 0 !important;
+  }
 
-    .mainTextcontent h1{
-        font-size: 4rem !important;
-    }
+  .ourValues .card,
+  .sectionCards .card,
+  .ourBenefits .sectionCards .card {
+    width: 48%;
+  }
 
-    .mainTextcontent p{
-        font-size: 2rem;
-    }
+  .ourBenefits .sectionCards .card .title img {
+    height: 130px !important;
+    width: 130px;
+  }
 
-    .ourValues,
-    .ourBenefits,
-    .jobOpenings{
-      height: auto;
-      width: 90% !important;
-      margin: 50px auto;
-      font-size: xx-large !important;
-    }
+  .jobOpenings {
+    height: auto !important;
+  }
 
-    .ourValues .sectionHeader,
-    .ourBenefits .sectionHeader,
-    .jobOpenings .sectionHeader{
-        margin: 30px auto 70px;
-    }
+  .jobs {
+    height: auto !important;
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+  }
 
-    .ourValues .sectionHeader .text h2,
-    .ourBenefits .sectionHeader .text h2,
-    .jobOpenings .sectionHeader .text h2{
-        font-size: 3rem !important;
-    }
+  .jobCard {
+    display: flex;
+    font-size: larger;
+    width: 100% !important;
+    height: 770px !important;
+  }
 
-    .ourValues .sectionHeader p,
-    .ourBenefits .sectionHeader p,
-    .jobOpenings .sectionHeader p{
-        font-size: 2rem;
-    }
+  .jobCard > div {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 49%;
+    padding: 20px;
+  }
 
-    .sectionCards{
-        margin: 150px auto 0 !important;
-    }
+  .jobCard ul li {
+    gap: 20px !important;
+  }
+  .jobCard ul li img {
+    height: 40px;
+  }
 
-    .ourValues .card,
-    .sectionCards .card,
-    .ourBenefits .sectionCards .card{
-        width: 48%;
-    }
+  .jobCard p {
+    font-size: 1.5rem;
+  }
 
-    .ourBenefits .sectionCards .card .title img{
-        height: 130px !important;
-        width: 130px;
-    }
+  .jobCard .applyBtn {
+    width: 50%;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
 
-    .jobOpenings{
-        height: auto !important;
-    }
+  .jobCard .tag {
+    font-size: 1.5rem;
+    padding: 10px 15px !important;
+  }
 
-    .jobs{
-        height: auto !important;
-        display: flex;
-        flex-wrap: wrap !important;
-        flex-direction: column !important;
-    }
-
-    .jobCard{
-        display: flex;
-        font-size: larger;
-        width: 100% !important;
-        height: 770px !important;
-    }
-
-    .jobCard > div{
-        display: flex !important;
-        flex-direction: column !important;
-        width: 49%;
-        padding: 20px;
-    }
-
-    .jobCard ul li{
-        gap: 20px !important;
-    }
-    .jobCard ul li img{
-        height: 40px;
-    }
-
-    .jobCard p{
-        font-size: 1.5rem;
-    }
-
-    .jobCard .applyBtn{
-        width: 50%;
-        border-radius: 30px;
-        margin: 0 auto;
-    }
-
-    .jobCard .tag{
-        font-size: 1.5rem;
-        padding: 10px 15px !important;
-    }
-    
-    .jobCard .applyBtn a{
-        font-size: 2rem !important;
-    }
+  .jobCard .applyBtn a {
+    font-size: 2rem !important;
+  }
 }
 
 @media (max-width: 1920px) {
-    .careerMain{
-        max-height: none !important;
-        min-height: auto !important;
-        height: 73.7vh !important;
-        overflow-y: hidden !important;
-    }
+  .careerMain {
+    max-height: none !important;
+    min-height: auto !important;
+    height: 73.7vh !important;
+    overflow-y: hidden !important;
+  }
 
-    .mainTextcontent{
-        left: -300px;
-        top: 0px !important;
-    }
-    
-    .mainTextcontent h1{
-        font-size: 2rem !important;
-    }
+  .mainTextcontent {
+    left: -300px;
+    top: 0px !important;
+  }
 
-    .mainTextcontent p{
-        font-size: 1.2rem !important;
-    }
+  .mainTextcontent h1 {
+    font-size: 2rem !important;
+  }
 
-    .careerMain .mainImg{
-        top: 0 !important;
-    }
+  .mainTextcontent p {
+    font-size: 1.2rem !important;
+  }
 
-    .ourValues,
-    .ourBenefits,
-    .jobOpenings{
-      height: auto;
-      width: 100% !important;
-      margin: 50px auto;
-    }
+  .careerMain .mainImg {
+    top: 0 !important;
+  }
 
-    .ourValues .sectionHeader,
-    .ourBenefits .sectionHeader,
-    .jobOpenings .sectionHeader{
-        margin: 30px auto 70px;
-    }
+  .ourValues,
+  .ourBenefits,
+  .jobOpenings {
+    height: auto;
+    width: 100% !important;
+    margin: 50px auto;
+  }
 
-    .ourValues .sectionHeader .text h2,
-    .ourBenefits .sectionHeader .text h2,
-    .jobOpenings .sectionHeader .text h2{
-        font-size: 2rem !important;
-    }
+  .ourValues .sectionHeader,
+  .ourBenefits .sectionHeader,
+  .jobOpenings .sectionHeader {
+    margin: 30px auto 70px;
+  }
 
-    .ourValues .sectionHeader p,
-    .ourBenefits .sectionHeader p,
-    .jobOpenings .sectionHeader p{
-        font-size: 1.2rem;
-    }
+  .ourValues .sectionHeader .text h2,
+  .ourBenefits .sectionHeader .text h2,
+  .jobOpenings .sectionHeader .text h2 {
+    font-size: 2rem !important;
+  }
 
-    .ourValues .card,
-    .sectionCards .card,
-    .ourBenefits .sectionCards .card{
-        width: 45%;
-    }
+  .ourValues .sectionHeader p,
+  .ourBenefits .sectionHeader p,
+  .jobOpenings .sectionHeader p {
+    font-size: 1.2rem;
+  }
 
-    .card p{
-        font-size: 1.2rem !important;
-    }
+  .ourValues .card,
+  .sectionCards .card,
+  .ourBenefits .sectionCards .card {
+    width: 45%;
+  }
 
-    .ourBenefits .title h3{
-        font-size: 1.3rem !important;
-    }
-    
-    .ourBenefits .sectionCards .card .title img{
-        height: 70px !important;
-        width: 70px !important;
-    }
+  .card p {
+    font-size: 1.2rem !important;
+  }
 
-    .jobCard {
-        height: auto !important;
-        padding: 0 20px !important;
-    }
-    
-    .jobCard .tag{
-        font-size: 1rem;
-    }
+  .ourBenefits .title h3 {
+    font-size: 1.3rem !important;
+  }
 
-    .jobCard .aboutJob h3,
-    .jobRequiermentsContainer h3{
-        font-size: 1.6rem;
-    }
+  .ourBenefits .sectionCards .card .title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
 
-    .jobCard .aboutJob p{
-        width: 90%;
-        font-size: 1.3rem;
-        line-height: 150%;
-    }
+  .jobCard {
+    height: auto !important;
+    padding: 0 20px !important;
+  }
 
-    .jobCard p{
-        font-size: 1.1rem;
-    }
+  .jobCard .tag {
+    font-size: 1rem;
+  }
 
-    .jobRequiermentsContainer ul li img{
-        height: 30px;
-        width: 30px;
-    } 
+  .jobCard .aboutJob h3,
+  .jobRequiermentsContainer h3 {
+    font-size: 1.6rem;
+  }
 
-    .jobCard .applyBtn {
-        padding: 10px 0;
-    }
-    
-    .jobCard .applyBtn a{
-        font-size: 1.3rem !important;
-    }
+  .jobCard .aboutJob p {
+    width: 90%;
+    font-size: 1.3rem;
+    line-height: 150%;
+  }
+
+  .jobCard p {
+    font-size: 1.1rem;
+  }
+
+  .jobRequiermentsContainer ul li img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .jobCard .applyBtn {
+    padding: 10px 0;
+  }
+
+  .jobCard .applyBtn a {
+    font-size: 1.3rem !important;
+  }
 }
 
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
+  .careerMain {
+    min-height: 49vh !important;
+    overflow-y: hidden !important;
+  }
 
-    .careerMain{
-        min-height: 49vh !important;
-        overflow-y: hidden !important;
-    }
+  .careerMain .mainTextcontent {
+    top: 0px !important;
+    left: -220px;
+    width: 40%;
+    height: auto !important;
+    min-height: 50vh !important;
+  }
 
-    .careerMain .mainTextcontent{
-        top: 0px !important;
-        left: -220px;
-        width: 40%;
-        height: auto !important;
-        min-height: 50vh !important;
-    }
+  .careerMain .mainImg {
+    top: 20px !important;
+  }
 
-    .careerMain .mainImg{
-        top: 20px !important;
-    }
+  .ourValues,
+  .ourBenefits,
+  .jobOpenings {
+    margin: 30px auto;
+    width: 100% !important;
+  }
 
-    .ourValues,
-    .ourBenefits,
-    .jobOpenings{
-      margin: 30px auto;
-      width: 100% !important;
-    }
+  .ourValues .sectionHeader .text h2,
+  .ourBenefits .sectionHeader .text h2,
+  .jobOpenings .sectionHeader .text h2 {
+    font-size: 2rem !important;
+  }
 
-    .ourValues .sectionHeader .text h2,
-    .ourBenefits .sectionHeader .text h2,
-    .jobOpenings .sectionHeader .text h2{
-        font-size: 2rem !important;
-    }
+  .ourValues .sectionHeader p,
+  .ourBenefits .sectionHeader p,
+  .jobOpenings .sectionHeader p {
+    font-size: 1.2rem;
+  }
 
-    .ourValues .sectionHeader p,
-    .ourBenefits .sectionHeader p,
-    .jobOpenings .sectionHeader p{
-        font-size: 1.2rem;
-    }
+  .sectionCards {
+    gap: 35px !important;
+  }
 
-    .sectionCards{
-        gap: 35px !important;
-    }
+  .ourValues .card,
+  .sectionCards .card,
+  .ourBenefits .sectionCards .card {
+    width: 47%;
+    height: 400px !important;
+    font-size: 1.2rem;
+  }
 
-    .ourValues .card,
-    .sectionCards .card,
-    .ourBenefits .sectionCards .card{
-        width: 47%;
-        height: 400px !important;
-        font-size: 1.2rem;
-    }
+  .jobs {
+    width: 100%;
+    flex-direction: row !important;
+    align-items: flex-start;
+  }
 
-    .jobs{
-        width: 100%;
-        flex-direction: row !important;
-        align-items: flex-start;
-    }
-    
-    .jobCard{
-        width: 47% !important;
-        height: auto !important;
-        gap: 0 !important;
-        flex-direction: column !important;
-        padding-bottom: 50px !important;
-    }    
+  .jobCard {
+    width: 47% !important;
+    height: auto !important;
+    gap: 0 !important;
+    flex-direction: column !important;
+    padding-bottom: 50px !important;
+  }
 
-    .jobCard h3{
-        font-size: 1.3rem;
-    }
+  .jobCard h3 {
+    font-size: 1.3rem;
+  }
 
-    .jobCard > div{
-        padding: 0;
-        width: 100%;
-    }
+  .jobCard > div {
+    padding: 0;
+    width: 100%;
+  }
 
-    .jobCard .tag{
-        font-size: 0.8rem;
-    }
+  .jobCard .tag {
+    font-size: 0.8rem;
+  }
 
-    .jobCard p{
-        font-size: 1rem;
-    }
+  .jobCard p {
+    font-size: 1rem;
+  }
 
-    .jobCard img{
-        height: 30px !important;
-        width: 30px !important;
-    }
+  .jobCard img {
+    height: 30px !important;
+    width: 30px !important;
+  }
 
-    .jobCard .applyBtn{
-        width: 50%;
-        margin: -30px auto;
-    }
+  .jobCard .applyBtn {
+    width: 50%;
+    margin: -30px auto;
+  }
 
-    .jobCard .applyBtn a{
-        font-size: 0.9rem !important;
-    }
-
+  .jobCard .applyBtn a {
+    font-size: 0.9rem !important;
+  }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
+  .careerMain .mainTextcontent {
+    width: 59%;
+  }
 
-    .careerMain .mainTextcontent{
-        width: 59%;
-    }
+  .careerMain .mainTextcontent h1 {
+    font-size: 2rem;
+  }
 
-    .careerMain .mainTextcontent h1{
-        font-size: 2rem;
-    }
+  .mainTextcontent p {
+    font-size: 1rem !important;
+  }
 
-    .mainTextcontent p{
-        font-size: 1rem !important;
-    }
+  .careerMain .mainImg {
+    top: 50px !important;
+  }
 
-    .careerMain .mainImg{
-        top: 50px !important;
-    }
+  .ourValues,
+  .ourBenefits,
+  .jobOpenings {
+    height: auto;
+    width: 90% !important;
+    margin: 50px auto;
+    font-size: xx-large !important;
+  }
 
-    .ourValues,
-    .ourBenefits,
-    .jobOpenings{
-      height: auto;
-      width: 90% !important;
-      margin: 50px auto;
-      font-size: xx-large !important;
-    }
+  .ourValues .sectionHeader .text h2,
+  .ourBenefits .sectionHeader .text h2,
+  .jobOpenings .sectionHeader .text h2 {
+    font-size: 1.7rem !important;
+  }
 
-    .ourValues .sectionHeader .text h2,
-    .ourBenefits .sectionHeader .text h2,
-    .jobOpenings .sectionHeader .text h2{
-        font-size: 1.7rem !important;
-    }
+  .ourValues .sectionHeader p,
+  .ourBenefits .sectionHeader p,
+  .jobOpenings .sectionHeader p {
+    font-size: 1rem;
+  }
 
-    .ourValues .sectionHeader p,
-    .ourBenefits .sectionHeader p,
-    .jobOpenings .sectionHeader p{
-        font-size: 1rem;
-    }
+  .ourValues .card,
+  .sectionCards .card,
+  .ourBenefits .sectionCards .card {
+    width: 47% !important;
+    height: 350px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    font-size: 1.1rem;
+  }
 
-    .ourValues .card,
-    .sectionCards .card,
-    .ourBenefits .sectionCards .card{
-        width: 47% !important;
-        height: 350px !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center !important;
-        font-size: 1.1rem;
-    }
+  .ourBenefits .sectionCards .card .title {
+    font-size: 1.1rem;
+    gap: 12px;
+  }
 
-    .ourBenefits .sectionCards .card .title{
-        font-size: 1.1rem;
-        gap: 12px;
-    }
+  .ourBenefits .sectionCards .card .title img {
+    height: 70px !important;
+    width: 70px;
+  }
 
-    .ourBenefits .sectionCards .card .title img{
-        height: 70px !important;
-        width: 70px;
-    }
+  .jobs {
+    gap: 10px;
+  }
 
-    .jobs{
-        gap: 10px;
-    }
+  .jobCard {
+    width: 47% !important;
+  }
 
-    .jobCard{
-        width: 47% !important;
-    }
+  .jobCard h3 {
+    font-size: 1.2rem !important;
+    margin: 0;
+  }
 
-    .jobCard h3{
-        font-size: 1.2rem !important;
-        margin: 0;
-    }
+  .jobCard > div > h3 {
+    margin: 15px;
+  }
 
-    .jobCard > div > h3{
-        margin: 15px;
-    }
+  .jobCard p {
+    font-size: 1rem !important;
+    width: 100% !important;
+    line-height: 120%;
+  }
 
-    .jobCard p{
-        font-size: 1rem !important;
-        width: 100% !important;
-        line-height: 120% ;
-    }
+  .jobCard ul {
+    height: auto;
+    width: 100% !important;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0 !important;
+  }
 
-    .jobCard ul{
-        height: auto;
-        width: 100% !important;
-        max-height: 400px;
-        display: flex;
-        flex-direction: column;
-        gap: 0 !important;
-    }
-    
-    .jobCard .applyBtn{
-        margin: 0px auto!important;
-    }
+  .jobCard .applyBtn {
+    margin: 0px auto !important;
+  }
 }
 
-@media (max-width:770px) {
-    .careerMain{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 95vh !important; /* let it grow naturally */
-        gap: 30px;
-    }
+@media (max-width: 770px) {
+  .careerMain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh !important; /* let it grow naturally */
+    gap: 30px;
+  }
 
-    .careerMain .mainTextcontent {
-        min-width: 100% !important;
-        left: 0 !important;
-        top: 130px !important;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        height: auto !important;
-        max-height: none;
-        min-height: 50% !important;
-        padding: 0 20px;
-    }
+  .careerMain .mainTextcontent {
+    min-width: 100% !important;
+    left: 0 !important;
+    top: 130px !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+    max-height: none;
+    min-height: 50% !important;
+    padding: 0 20px;
+  }
 
-    .mainTextcontent h1{
-        font-size: 1.5rem !important;
-    }
-    .mainTextcontent p{
-        font-size: 0.9rem;
-    }
+  .mainTextcontent h1 {
+    font-size: 1.5rem !important;
+  }
+  .mainTextcontent p {
+    font-size: 0.9rem;
+  }
 
-    .mainImg{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+  .mainImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-    .mainImg img{
-        width: 80% !important;
-        height: auto;
-        max-height: 70%;
-        margin: 0 auto;
-        display: block;
-        top: 0 ;
-    }
+  .mainImg img {
+    width: 80% !important;
+    height: auto;
+    max-height: 70%;
+    margin: 0 auto;
+    display: block;
+    top: 0;
+  }
 
-    .sectionHeader{
-        width: 100% !important;
-    }
+  .sectionHeader {
+    width: 100% !important;
+  }
 
+  .sectionHeader .text p {
+    font-size: 1rem !important;
+  }
 
-    .sectionHeader .text p{
-        font-size: 1rem !important;
-    }
+  .ourValues .card {
+    height: 65vh !important;
+    width: 47% !important;
+  }
 
-    .ourValues .card{
-        height: 65vh !important;
-        width: 47% !important;
-    }
-    
-    .sectionCards{
-        width: 100% !important;
-    }
+  .sectionCards {
+    width: 100% !important;
+  }
 
-    .ourBenefits .card{
-        width: 47% !important;
-        min-height: 420px;
-        height: auto !important;
-        padding: 20px !important;
-    }
+  .ourBenefits .card {
+    width: 47% !important;
+    min-height: 420px;
+    height: auto !important;
+    padding: 20px !important;
+  }
 
-    .ourBenefits .card .title h3{
-        font-size: 1.2rem !important;
-    }
+  .ourBenefits .card .title h3 {
+    font-size: 1.2rem !important;
+  }
 
-    .ourBenefits .card p{
-        font-size: 1.05rem;
-    }
+  .ourBenefits .card p {
+    font-size: 1.05rem;
+  }
 
-    .jobCard{
-        flex-direction: row !important;
-        height: auto;
-        width: 100% !important;
-    }
+  .jobCard {
+    flex-direction: row !important;
+    height: auto;
+    width: 100% !important;
+  }
 
-    .jobCard .jobTags{
-        gap: 5px;
-    }
+  .jobCard .jobTags {
+    gap: 5px;
+  }
 
-    .jobCard .tag{
-        padding: 7px 10px !important;
-        font-size: 0.7rem !important;
-    }
+  .jobCard .tag {
+    padding: 7px 10px !important;
+    font-size: 0.7rem !important;
+  }
 
-    .aboutJob{
-        width: 90%;
-    }
+  .aboutJob {
+    width: 90%;
+  }
 
-    .aboutJob p{
-        font-size: 1rem !important;
-    }
+  .aboutJob p {
+    font-size: 1rem !important;
+  }
 
-    .jobCard .jobRequiermentsContainer{
-        height: 90% !important;
-    }
+  .jobCard .jobRequiermentsContainer {
+    height: 90% !important;
+  }
 
-    .jobRequierments{
-        height: auto !important;
-    }
+  .jobRequierments {
+    height: auto !important;
+  }
 
-    .jobRequierments ul{
-        height: auto !important;
-        gap: 0 !important;
-    }
+  .jobRequierments ul {
+    height: auto !important;
+    gap: 0 !important;
+  }
 
-    .jobRequierments ul li{
-        height: 80px !important;
-        line-height: normal !important;
-        font-size: 0.9rem !important;
-    }
+  .jobRequierments ul li {
+    height: 80px !important;
+    line-height: normal !important;
+    font-size: 0.9rem !important;
+  }
 
-    .jobRequierments ul li p{
-        font-size: 0.9rem;
-    }
+  .jobRequierments ul li p {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 426px) {
-    html{
-        width: 100% !important;
-    }
+  html {
+    width: 100% !important;
+  }
 
-    body{
-        width: 100% !important;
-        overflow-x: hidden !important;
-    }
+  body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
 
-    .pageContainer{
-        width: 100% !important;
-        margin: 0 auto !important;
-    }
-    
-    .careerMain {
-      width: 100% !important;
-      height: auto !important;
-      min-height: 110vh !important;
-      max-height: 120vh !important;
-      margin: 50px auto !important;
-      position: relative;
-      padding: 20px !important;
-    }
+  .pageContainer {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
 
-    .careerMain .mainImg{
-        min-width: 80%;
-        min-height: 50vh !important;
-        height: 350px !important;
-        position: absolute;
-        top: 50px !important;
-        z-index: 1;
-        order: 0;
-    }
+  .careerMain {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 110vh !important;
+    max-height: 120vh !important;
+    margin: 50px auto !important;
+    position: relative;
+    padding: 20px !important;
+  }
 
-    .mainImg img{
-        margin: 0 !important;
-        height: inherit !important;
-        min-height: 50vh !important;
-        width: 80% !important;
-        position: absolute;
-        top: 0 !important;
-        z-index: 1;
-    }
+  .careerMain .mainImg {
+    min-width: 80%;
+    min-height: 50vh !important;
+    height: 350px !important;
+    position: absolute;
+    top: 50px !important;
+    z-index: 1;
+    order: 0;
+  }
 
-    .mainTextcontent{
-        position: relative !important;
-        width: 90% !important;
-        left: 0 !important;
-        top: 350px !important;
-        height: auto !important;
-        min-height: 65% !important;
-        padding: 30px !important;
-        z-index: 2;
-        border-radius: 20px !important;
-        order: 1;
-    }
+  .mainImg img {
+    margin: 0 !important;
+    height: inherit !important;
+    min-height: 50vh !important;
+    width: 80% !important;
+    position: absolute;
+    top: 0 !important;
+    z-index: 1;
+  }
 
-    .mainTextcontent h1{
-        font-size: 35px;
-        text-align: center;
-    }
+  .mainTextcontent {
+    position: relative !important;
+    width: 90% !important;
+    left: 0 !important;
+    top: 350px !important;
+    height: auto !important;
+    min-height: 65% !important;
+    padding: 30px !important;
+    z-index: 2;
+    border-radius: 20px !important;
+    order: 1;
+  }
 
-    .mainTextcontent p{
-        width: 100%;
-        text-align: center;
-    }
-    
-    .sectionCards{
-        width: 90%;
-        gap: 50px;
-        flex-wrap: wrap !important;
-        height: auto !important;
-    }
+  .mainTextcontent h1 {
+    font-size: 35px;
+    text-align: center;
+  }
 
-    .sectionCards .card{
-        width: 100% !important;
-    }
+  .mainTextcontent p {
+    width: 100%;
+    text-align: center;
+  }
 
+  .sectionCards {
+    width: 90%;
+    gap: 50px;
+    flex-wrap: wrap !important;
+    height: auto !important;
+  }
 
-    .card h2{
-        font-size: 30px;
-    }
+  .sectionCards .card {
+    width: 100% !important;
+    height: auto !important;
+  }
 
-    .ourBenefits .sectionCards{
-        gap: 30px;
-        margin: 0 auto !important;
-    }
+  .card h2 {
+    font-size: 30px;
+  }
 
-    .jobs{
-        height: auto !important;
-    }
+  .ourBenefits .sectionCards {
+    gap: 30px;
+    margin: 0 auto !important;
+  }
 
-    .jobCard{
-        flex-direction: column !important;
-        width: 100% !important;
-    }
+  .ourBenefits .sectionCards .card {
+    width: 100% !important;
+    height: auto !important;
+  }
 
-    .jobCard .tag{
-        font-size: 11px;
-    }
+  .jobs {
+    height: auto !important;
+    gap: 30px;
+  }
 
-    .jobCard ul{
-        width: 100% !important;
-        margin-left: -20px;
-    }
-    
-    .jobCard ul li{
-        width: 100% !important;
-    }
-    
+  .jobCard {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .jobCard .tag {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .jobCard ul {
+    width: 100% !important;
+    margin-left: -20px;
+  }
+
+  .jobCard ul li {
+    width: 100% !important;
+  }
 }

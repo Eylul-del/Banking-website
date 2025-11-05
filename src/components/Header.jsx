@@ -57,25 +57,38 @@ export default function Header() {
           <img src={navBtn} alt="menu" />
         </div>
       </div>
+
       <nav className={`navMobile ${isOpen ? "show" : ""}`}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={() => setIsOpen(false)}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/careers">Careers</Link>
+            <Link to="/careers" onClick={() => setIsOpen(false)}>
+              Careers
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={() => setIsOpen(false)}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/security">Security</Link>
+            <Link to="/security" onClick={() => setIsOpen(false)}>
+              Security
+            </Link>
           </li>
           <li>
-            <Link to="/signup">Sign Up</Link>
+            <Link to="/signup" onClick={() => setIsOpen(false)}>
+              Sign Up
+            </Link>
           </li>
           <li>
-            <Link to="/login">Login</Link>
+            <Link to="/login" onClick={() => setIsOpen(false)}>
+              Login
+            </Link>
           </li>
         </ul>
       </nav>

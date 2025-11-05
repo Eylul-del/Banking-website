@@ -1,0 +1,70 @@
+:root {
+  --green60: #caff33;
+  --green65: #d1ff4d;
+  --darkGreeen65: #79991f;
+  --green70: #d8ff66;
+  --green80: #e5ff99;
+  --green90: #f2ffcc;
+  --green95: #f8ffe5;
+  --green97: #fbfff0;
+  --green99: #fefffa;
+
+  --white90: #e4e4e7;
+  --white95: #f1f1f3;
+  --white97: #f7f7f8;
+  --white99: #fcfcfd;
+
+  --gray10: #1a1a1a;
+  --gray11: #1c1c1c;
+  --gray15: #262626;
+  --gray20: #333333;
+  --gray30: #4c4c4d;
+  --gray35: #59595a;
+  --gray40: #656567;
+  --gray60: #98989a;
+  --gray70: #b3b3b3;
+  --gray75: #bfbfbf;
+}
+
+.backToTop {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 55px !important;
+  height: 55px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 9999 !important;
+  background-color: var(--green60);
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.backToTop img {
+  position: absolute;
+  width: 70% !important;
+  height: 70% !important;
+  z-index: 999999 !important;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

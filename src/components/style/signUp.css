@@ -1,19 +1,29 @@
-
-.loginMain{
-    justify-content: space-around;
+.loginMain {
+  justify-content: space-around;
 }
 
-.inputs{
-    flex-wrap: wrap;
-    gap: 10px 5px;
-    height: 150px;
-    margin: 20px auto;
+.inputs {
+  flex-wrap: wrap;
+  gap: 10px 5px;
+  height: auto !important;
+  margin: 40px auto !important;
 }
 
-.inputs input{
-    height: 40%;
+.inputs input {
+  height: 40%;
 }
 
-.buttons{
-    margin: 30px auto 0;
+.buttons {
+  margin: 30px auto 0;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 425px) {
+  .inputs {
+    margin: 20px auto !important;
+  }
 }

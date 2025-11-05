@@ -1,0 +1,38 @@
+.popup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  max-width: 75% !important;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: var(--gray15);
+  color: var(--green60);
+  border: 1px solid var(--green60);
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 9999;
+  animation: fadeInOut 5s ease-in-out forwards; /* ⏳ Make it 5s to match timeout */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ✅ Now fades in quickly, stays visible, then fades out at the end */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-60%);
+  }
+  10%,
+  85% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-60%);
+  }
+}

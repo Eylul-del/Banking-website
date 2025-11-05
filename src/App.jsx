@@ -9,7 +9,8 @@ import Login from "./components/Login";
 import Security from "./components/Security";
 import IndividualProducts from "./components/IndividualProducts";
 import BusinessProducts from "./components/BusinessProducts";
-
+import NotFound from "./components/NotFound";
+import BackToTop from "./components/BackToTop";
 export default function App() {
   return (
     <>
@@ -23,7 +24,10 @@ export default function App() {
         <Route path="/security" element={<Security />} />
         <Route path="/individual-products" element={<IndividualProducts />} />
         <Route path="/business-products" element={<BusinessProducts />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
+
+      <BackToTop />
       <Footer />
     </>
   );

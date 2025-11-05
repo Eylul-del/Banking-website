@@ -1,0 +1,63 @@
+:root {
+  --green60: #caff33;
+  --green65: #d1ff4d;
+  --green70: #d8ff66;
+  --darkGreen70: #d9ff6670;
+  --green80: #e5ff99;
+  --green90: #f2ffcc;
+  --green95: #f8ffe5;
+  --green97: #fbfff0;
+  --green99: #fefffa;
+
+  --gray10: #1a1a1a;
+  --gray11: #1c1c1c;
+  --gray15: #262626;
+  --gray20: #333333;
+  --gray30: #4c4c4d;
+  --gray35: #59595a;
+  --gray40: #656567;
+  --gray60: #98989a;
+  --gray70: #b3b3b3;
+  --gray75: #bfbfbf;
+}
+
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray10);
+  color: var(--white95);
+  text-align: center;
+  padding: 0 20px;
+}
+
+.notfound-title {
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--green70);
+  margin: 0;
+}
+
+.notfound-text {
+  font-size: 1.5rem;
+  color: var(--white97);
+  margin: 20px 0;
+}
+
+.notfound-btn {
+  display: inline-block;
+  background-color: var(--green65);
+  color: var(--gray10);
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.notfound-btn:hover {
+  background-color: var(--green80);
+  color: var(--gray11);
+}
