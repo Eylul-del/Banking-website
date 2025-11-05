@@ -1,36 +1,37 @@
 :root {
-  --green60: #CAFF33;
-  --green65: #D1FF4D;
-  --green70: #D8FF66;
+  --green60: #caff33;
+  --green65: #d1ff4d;
+  --green70: #d8ff66;
   --darkGreen70: #d9ff6670;
-  --green80: #E5FF99;
-  --green90: #F2FFCC;
-  --green95: #F8FFE5;
-  --green97: #FBFFF0;
-  --green99: #FEFFFA;
+  --green80: #e5ff99;
+  --green90: #f2ffcc;
+  --green95: #f8ffe5;
+  --green97: #fbfff0;
+  --green99: #fefffa;
 
-  --white90: #E4E4E7;
-  --white95: #F1F1F3;
-  --white97: #F7F7F8;
-  --white99: #FCFCFD;
+  --white90: #e4e4e7;
+  --white95: #f1f1f3;
+  --white97: #f7f7f8;
+  --white99: #fcfcfd;
 
-  --gray10: #1A1A1A;
-  --gray11: #1C1C1C;
+  --gray10: #1a1a1a;
+  --gray11: #1c1c1c;
   --gray15: #262626;
   --gray20: #333333;
-  --gray30: #4C4C4D;
-  --gray35: #59595A;
+  --gray30: #4c4c4d;
+  --gray35: #59595a;
   --gray40: #656567;
-  --gray60: #98989A;
-  --gray70: #B3B3B3;
-  --gray75: #BFBFBF;
+  --gray60: #98989a;
+  --gray70: #b3b3b3;
+  --gray75: #bfbfbf;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden !important;
   width: 100%;
   margin: 0;
@@ -43,13 +44,20 @@ html, body {
   height: auto !important;
 }
 
-img, video, iframe {
+img,
+video,
+iframe {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-.sectionContent, .sectionCards, .row, .card, .rowImg, .rowTextContent {
+.sectionContent,
+.sectionCards,
+.row,
+.card,
+.rowImg,
+.rowTextContent {
   max-width: 100%;
   overflow: hidden;
 }
@@ -78,11 +86,8 @@ img, video, iframe {
   height: 100% !important;
 }
 
-.aboutMain .mainImg img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 20px;
+body[dir="rtl"] .aboutMain .mainImg {
+  border: 1px solid red;
 }
 
 .aboutMain .mainTextcontent {
@@ -106,7 +111,6 @@ img, video, iframe {
   color: var(--gray70);
   line-height: 1.6;
 }
-
 
 .missionAndVision {
   margin: 0px auto;
@@ -147,7 +151,7 @@ img, video, iframe {
   border-right: 4px solid var(--darkGreen70);
 }
 
-.rowTextContent h2{
+.rowTextContent h2 {
   color: var(--gray75);
 }
 
@@ -227,14 +231,12 @@ img, video, iframe {
   background-color: var(--gray10);
 }
 
-
-@media (max-width:2560px) {
-
-  .pageContainer{
+@media (max-width: 2560px) {
+  .pageContainer {
     width: 100% !important;
   }
 
-  .aboutMain{
+  .aboutMain {
     max-height: none !important;
     min-height: auto !important;
     height: 73.7vh !important;
@@ -242,158 +244,158 @@ img, video, iframe {
     min-width: 100% !important;
   }
 
-  .aboutMain .mainTextcontent{
+  .aboutMain .mainTextcontent {
     top: -30px !important;
     left: 30px;
     min-height: 50%;
     max-width: 50%;
   }
 
-  .aboutMain .mainTextcontent p{
+  .aboutMain .mainTextcontent p {
     font-size: 2rem;
   }
 
-  .aboutMain .mainImg img{
+  .aboutMain .mainImg img {
     height: 900px !important;
   }
 
-  .missionAndVision{
+  .missionAndVision {
     height: auto !important;
     margin: 100px auto 0;
   }
 
   .missionAndVision .sectionHeader h2,
-  .pressReleases .sectionHeader h2{
+  .pressReleases .sectionHeader h2 {
     font-size: 3rem;
   }
 
-  .sectionHeader p{
+  .sectionHeader p {
     font-size: 2rem;
   }
 
-  .missionAndVision .sectionContent{
+  .missionAndVision .sectionContent {
     height: auto !important;
     margin: 150px auto !important;
   }
 
-  .row{
+  .row {
     height: auto !important;
   }
 
-  .row .rowImg{
+  .row .rowImg {
     height: 500px !important;
     width: 600px !important;
     overflow: visible;
   }
 
-  .rowImg img{
+  .rowImg img {
     height: 500px !important;
   }
 
-  .rowTextContent h2{
+  .rowTextContent h2 {
     font-size: 3rem;
   }
 
-  .rowTextContent p{
+  .rowTextContent p {
     font-size: 2rem;
   }
 
-  .pressReleases{
+  .pressReleases {
     margin: 0 auto !important;
   }
 
-  .pressReleases .sectionCards{
+  .pressReleases .sectionCards {
     gap: 50px 3% !important;
     height: auto !important;
     margin: 50px auto !important;
   }
 
-  .pressReleases .sectionCards .card{
+  .pressReleases .sectionCards .card {
     width: 42%;
     height: auto !important;
     padding: 30px;
   }
 
-  .pressReleases .sectionCards .card .cardImg{
+  .pressReleases .sectionCards .card .cardImg {
     height: 400px;
   }
 
-  .card .cardContent .title h3{
+  .card .cardContent .title h3 {
     font-size: 2.2rem;
   }
 
-  .card .cardContent .tag{
+  .card .cardContent .tag {
     font-size: 1.5rem;
   }
 
-  .card .cardContent .description p{
+  .card .cardContent .description p {
     font-size: 1.8rem !important;
   }
 }
 
-@media (max-width:1920px) {
-  .aboutMain{
+@media (max-width: 1920px) {
+  .aboutMain {
     height: 70.5vh !important;
     margin: 50px auto;
   }
 
-  .aboutMain .mainTextcontent{
+  .aboutMain .mainTextcontent {
     top: 0px !important;
     left: 0;
     max-width: 50%;
   }
 
-  .aboutMain .mainTextcontent h1{
+  .aboutMain .mainTextcontent h1 {
     font-size: 1.5rem !important;
   }
 
-  .aboutMain .mainTextcontent p{
+  .aboutMain .mainTextcontent p {
     font-size: 1.1rem !important;
   }
 
-  .aboutMain .mainImg{
+  .aboutMain .mainImg {
     top: 0 !important;
   }
 
-  .aboutMain .mainImg img{
+  .aboutMain .mainImg img {
     height: 90% !important;
   }
 
-  .sectionHeader h2{
+  .sectionHeader h2 {
     font-size: 2rem !important;
   }
 
-  .sectionHeader p{
+  .sectionHeader p {
     font-size: 1.2rem;
   }
 
-  .row{
+  .row {
     height: auto !important;
   }
 
-  .row .rowImg{
+  .row .rowImg {
     height: 350px !important;
     width: 400px !important;
     overflow: visible;
   }
 
-  .rowImg img{
+  .rowImg img {
     height: 320px !important;
   }
 
-  .rowTextContent h2{
+  .rowTextContent h2 {
     font-size: 2rem;
   }
 
-  .rowTextContent p{
+  .rowTextContent p {
     font-size: 1.1rem;
   }
 
-  .pressReleases .sectionCards{
+  .pressReleases .sectionCards {
     gap: 20px !important;
   }
 
-  .card{
+  .card {
     width: 45% !important;
     height: auto !important;
     gap: 0 !important;
@@ -401,106 +403,106 @@ img, video, iframe {
   }
 
   .card .cardImg,
-  .card .cardImg img{
+  .card .cardImg img {
     height: 270px !important;
   }
 
-  .card .cardContent .title h3{
+  .card .cardContent .title h3 {
     font-size: 1.2rem !important;
   }
 
-  .cardContent .tag{
+  .cardContent .tag {
     font-size: 1rem !important;
   }
 
-  .card .cardContent .description p{
+  .card .cardContent .description p {
     font-size: 1.05rem !important;
   }
 }
 
-@media (max-width:1024px) {
-  .aboutMain{
+@media (max-width: 1024px) {
+  .aboutMain {
     max-height: 500px !important;
     min-height: none !important;
     padding: 0 !important;
   }
 
   .aboutMain .mainImg,
-  .aboutMain .mainImg img{
+  .aboutMain .mainImg img {
     height: 400px !important;
     max-height: 400px;
     margin: 0 !important;
     top: 0 !important;
   }
 
-  .aboutMain .mainTextcontent{
+  .aboutMain .mainTextcontent {
     width: 60% !important;
     left: 20px !important;
   }
 
-  .aboutMain .mainTextcontent h1{
+  .aboutMain .mainTextcontent h1 {
     font-size: 1.6rem !important;
   }
 
-  .aboutMain .mainTextcontent p{
+  .aboutMain .mainTextcontent p {
     font-size: 1rem !important;
   }
 
-  .sectionHeader h2{
+  .sectionHeader h2 {
     font-size: 1.7rem !important;
   }
 
-  .missionAndVision .sectionContent{
+  .missionAndVision .sectionContent {
     margin: 50px auto !important;
   }
 
-  .rowTextContent{
+  .rowTextContent {
     height: auto !important;
     padding: 10px 20px !important;
   }
 
-  .row .rowTextContent h2{
+  .row .rowTextContent h2 {
     height: auto;
     font-size: 1.5rem;
   }
 
-  .rowTextContent p{
+  .rowTextContent p {
     font-size: 0.95rem;
   }
 
-  .row .rowImg{
+  .row .rowImg {
     height: 300px !important;
     width: 330px !important;
   }
 
-  .rowImg img{
+  .rowImg img {
     height: 270px !important;
   }
 
-  .sectionCards .card{
-    width: 48%  !important;
+  .sectionCards .card {
+    width: 48% !important;
   }
 
   .sectionCards .card .cardImg,
-  .sectionCards .card img{
+  .sectionCards .card img {
     height: 200px !important;
   }
 
-  .card .cardContent h3{
+  .card .cardContent h3 {
     font-size: 0.9rem !important;
   }
 
-  .cardContent .tag{
+  .cardContent .tag {
     font-size: 0.8rem !important;
   }
 
-  .cardContent .description p{
+  .cardContent .description p {
     font-size: 0.78rem !important;
     line-height: 135%;
   }
 }
 
-  @media (max-width: 770px) {
+@media (max-width: 770px) {
   .aboutMain {
     flex-direction: column;
     justify-content: center;
@@ -536,33 +538,31 @@ img, video, iframe {
     border-radius: 30px;
   }
 
-  .sectionHeader h2{
+  .sectionHeader h2 {
     font-size: 1.5rem !important;
   }
 
-  .sectionHeader p{
+  .sectionHeader p {
     font-size: 1.05rem;
   }
 
-  .row{
+  .row {
     margin: 20px auto !important;
   }
 
-  .row h2{
+  .row h2 {
     font-size: 1.3rem !important;
   }
 
-  .row p{
+  .row p {
     line-height: 120%;
     font-size: 0.9rem !important;
   }
 
-  .card .description p{
+  .card .description p {
     font-size: 0.7rem !important;
     line-height: 110%;
   }
-
-  
 }
 
 @media (max-width: 426px) {
@@ -576,7 +576,7 @@ img, video, iframe {
     padding: 20px !important;
   }
 
-  .aboutMain .mainTextcontent{
+  .aboutMain .mainTextcontent {
     width: 90% !important;
     margin: 0 !important;
     max-height: 500px !important;
@@ -587,7 +587,7 @@ img, video, iframe {
     z-index: 1;
   }
 
-  .aboutMain .mainImg img{
+  .aboutMain .mainImg img {
     margin: 0 !important;
     height: inherit !important;
     width: inherit;
@@ -597,7 +597,7 @@ img, video, iframe {
     order: 0 !important;
   }
 
-  .mainTextcontent{
+  .mainTextcontent {
     position: relative !important;
     width: 100% !important;
     left: 0 !important;
@@ -608,15 +608,15 @@ img, video, iframe {
     order: 1;
   }
 
-    .mainTextcontent h1{
-      font-size: 35px;
-      text-align: center;
-    }
+  .mainTextcontent h1 {
+    font-size: 35px;
+    text-align: center;
+  }
 
-    .mainTextcontent p{
-      width: 100%;
-      text-align: center;
-    }
+  .mainTextcontent p {
+    width: 100%;
+    text-align: center;
+  }
 
   .missionAndVision {
     height: auto !important;

@@ -24,60 +24,62 @@ import Financialtools from "./features/FinancialTools";
 import CustomerSupport from "./features/CustomerSupport";
 import OurTestimonials from "./OurTestimonials.jsx";
 import FAQ from "./FAQ.jsx";
+import "../i18n.js";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("individual");
   const [activeFeature, setActiveFeature] = useState("onlineBanking");
+  const { t } = useTranslation();
+
   return (
     <div className="pageContainer">
       <main>
         <div className="colOne">
           <div className="mainSub1">
-            <img src={mainSubImg} alt="check img" />
-            <p>No LLC Required, No Credit Check.</p>
+            <img src={mainSubImg} alt={t("home_main_sub_img_alt")} />
+            <p>{t("home_main_sub1_text")}</p>
           </div>
           <div className="mainTitle">
             <h1>
-              Welcome to YourBank Empowering Your <span>Financial Journey</span>
+              {t("home_main_title")} <span>{t("home_main_title_span")}</span>
             </h1>
           </div>
           <div className="mainSub2">
-            <p>
-              At YourBank, our mission is to provide comprehensive banking
-              solutions that empower individuals and businesses to achieve their
-              financial goals. We are committed to delivering personalized and
-              innovative services that prioritize our customers' needs.
-            </p>
+            <p>{t("home_main_sub2_paragraph")}</p>
           </div>
           <div className="openAccount">
-            <Link to="/signup">Open Account</Link>
+            <Link to="/signup">{t("home_open_account")}</Link>
           </div>
         </div>
 
         <div className="colTwo">
           <div className="monthIncomeCard">
-            <img src={monthIncomeCard} alt="monthly Income Card img" />
+            <img src={monthIncomeCard} alt={t("home_month_income_img_alt")} />
             <div className="text">
               <p>$ 5,000.00</p>
-              <span>Monthly Income</span>
+              <span>{t("home_monthly_income")}</span>
             </div>
           </div>
 
           <div className="mainTransactionsCard">
             <div className="cardImg">
-              <p>Your Transactions</p>
-              <img src={mainTransactionCard} alt="Main Transaction Card" />
+              <p>{t("home_your_transactions")}</p>
+              <img
+                src={mainTransactionCard}
+                alt={t("home_transaction_card_img_alt")}
+              />
             </div>
             <div className="cardContent">
-              <h2>Money Exchange</h2>
+              <h2>{t("home_money_exchange_title")}</h2>
               <div className="countries">
                 <div className="countryCard">
                   <div className="countryIcon">
                     <div>
-                      <img src={indiaIcon} alt="India Icon" />
-                      <p>INR</p>
+                      <img src={indiaIcon} alt={t("home_india_icon_alt")} />
+                      <p>{t("home-india-country-currency")}</p>
                     </div>
-                    <p>India Rupees</p>
+                    <p>{t("home_india_rupees")}</p>
                   </div>
                   <div className="transaction">
                     <p>50,000</p>
@@ -86,10 +88,10 @@ export default function Home() {
                 <div className="countryCard">
                   <div className="countryIcon">
                     <div>
-                      <img src={USDIcon} alt="USD Icon" />
-                      <p>USD</p>
+                      <img src={USDIcon} alt={t("home_usd_icon_alt")} />
+                      <p>{t("home-usd-country-currency")}</p>
                     </div>
-                    <p>United States Dollar</p>
+                    <p>{t("home_usd_dollar")}</p>
                   </div>
                   <div className="transaction">
                     <p>12.00</p>
@@ -97,20 +99,20 @@ export default function Home() {
                 </div>
               </div>
               <div className="exchangeBtn">
-                <button>Exchange</button>
+                <button>{t("home_exchange_button")}</button>
               </div>
             </div>
           </div>
           <div className="supportedCurrency">
-            <p>Supported Currency</p>
+            <p>{t("home_supported_currency")}</p>
             <div className="currencies">
-              <img src={currency} alt="currency img" />
+              <img src={currency} alt={t("home_currency_img_alt")} />
             </div>
           </div>
         </div>
 
         <div className="rightImg">
-          <img src={AbstractDesign} alt="AbstractDesign" />
+          <img src={AbstractDesign} alt={t("home_abstract_design_alt")} />
         </div>
       </main>
 
@@ -118,13 +120,9 @@ export default function Home() {
         <div className="sectionHeader">
           <div className="text">
             <h2>
-              Our <span>Products</span>
+              {t("home_products_title")} <span>{t("home_products_span")}</span>
             </h2>
-            <p>
-              Discover a range of comprehensive and customizable banking
-              products at YourBank, designed to suit your unique financial needs
-              and aspirations.
-            </p>
+            <p>{t("home_products_paragraph")}</p>
           </div>
 
           <div className="btns">
@@ -133,7 +131,7 @@ export default function Home() {
               className={activeSection === "individual" ? "active" : ""}
               onClick={() => setActiveSection("individual")}
             >
-              For Individuals
+              {t("home_products_btn_individual")}
             </button>
 
             <button
@@ -141,7 +139,7 @@ export default function Home() {
               className={activeSection === "business" ? "active" : ""}
               onClick={() => setActiveSection("business")}
             >
-              For Businesses
+              {t("home_products_btn_business")}
             </button>
           </div>
         </div>
@@ -159,12 +157,9 @@ export default function Home() {
         <div className="sectionHeader">
           <div className="text">
             <h2>
-              <span>Use Cases</span>
+              <span>{t("home_use_cases_title")}</span>
             </h2>
-            <p>
-              At YourBank, we cater to the diverse needs of individuals and
-              businesses alike, offering a wide range of financial solutions
-            </p>
+            <p>{t("home_use_cases_paragraph")}</p>
           </div>
         </div>
 
@@ -172,54 +167,44 @@ export default function Home() {
           <div className="col">
             <div className="features">
               <div className="feature">
-                <img src={IconContainer3} alt="Icon Container" />
-                <p>Nanaging Personal Ficnances</p>
+                <img src={IconContainer3} alt={t("home_feature1_img_alt")} />
+                <p>{t("home_feature1_text")}</p>
               </div>
-
               <div className="feature">
-                <img src={IconContainer4} alt="Icon Container" />
-                <p>Saving for the Future</p>
+                <img src={IconContainer4} alt={t("home_feature2_img_alt")} />
+                <p>{t("home_feature2_text")}</p>
               </div>
-
               <div className="feature">
-                <img src={IconContainer5} alt="Icon Container" />
-                <p>Homeownership</p>
+                <img src={IconContainer5} alt={t("home_feature3_img_alt")} />
+                <p>{t("home_feature3_text")}</p>
               </div>
-
               <div className="feature">
-                <img src={IconContainer6} alt="Icon Container" />
-                <p>Education Funding</p>
+                <img src={IconContainer6} alt={t("home_feature4_img_alt")} />
+                <p>{t("home_feature4_text")}</p>
               </div>
             </div>
 
             <div className="colDescription">
               <div className="text">
-                <h3>For Buisness</h3>
-                <p>
-                  {" "}
-                  For businesses, we empower growth with working capital
-                  solutions that optimize cash flow, and our tailored financing
-                  options fuel business expansion. Whatever your financial
-                  aspirations, YourBank is committed to providing the right
-                  tools and support to achieve them
-                </p>
+                <h3>{t("home_for_business_title")}</h3>
+                <p>{t("home_for_business_paragraph")}</p>
               </div>
               <div className="achievement">
                 <div>
                   <span>65%</span>
-                  <p>Chac Flow Management</p>
+                  <p>{t("home_business_achievement1")}</p>
                 </div>
                 <div>
                   <span>70%</span>
-                  <p>Drve Buisness Expansion</p>
+                  <p>{t("home_business_achievement2")}</p>
                 </div>
                 <div>
                   <span>45%</span>
-                  <p>Streamline Payroll Processing</p>
+                  <p>{t("home_business_achievement3")}</p>
                 </div>
               </div>
               <div className="learnMore">
-                <button>Learn More</button>
+                <button>{t("home_learn_more")}</button>
               </div>
             </div>
           </div>
@@ -227,53 +212,44 @@ export default function Home() {
           <div className="col">
             <div className="colDescription">
               <div className="text">
-                <h3>For Individuals</h3>
-                <p>
-                  For individuals, our mortgage services pave the way to
-                  homeownership, and our flexible personal loans provide vital
-                  support during various life milestones. We also prioritize
-                  retirement planning, ensuring a financially secure future for
-                  our customers
-                </p>
+                <h3>{t("home_for_individuals_title")}</h3>
+                <p>{t("home_for_individuals_paragraph")}</p>
               </div>
               <div className="achievement">
                 <div>
                   <span>78%</span>
-                  <p>Secure Retirement Planning</p>
+                  <p>{t("home_individual_achievement1")}</p>
                 </div>
                 <div>
                   <span>63%</span>
-                  <p>Manageable Debt Consolidation</p>
+                  <p>{t("home_individual_achievement2")}</p>
                 </div>
                 <div>
                   <span>91%</span>
-                  <p>Reducing financial burdens</p>
+                  <p>{t("home_individual_achievement3")}</p>
                 </div>
               </div>
               <div className="learnMore">
-                <button>Learn More</button>
+                <button>{t("home_learn_more")}</button>
               </div>
             </div>
 
             <div className="features">
               <div className="feature">
-                <img src={IconContainer7} alt="Icon Container" />
-                <p>Startups and Entrepreneurs</p>
+                <img src={IconContainer7} alt={t("home_feature5_img_alt")} />
+                <p>{t("home_feature5_text")}</p>
               </div>
-
               <div className="feature">
-                <img src={IconContainer8} alt="Icon Container" />
-                <p>Cash Flow Management</p>
+                <img src={IconContainer8} alt={t("home_feature6_img_alt")} />
+                <p>{t("home_feature6_text")}</p>
               </div>
-
               <div className="feature">
-                <img src={IconContainer9} alt="Icon Container" />
-                <p>Business Expansion</p>
+                <img src={IconContainer9} alt={t("home_feature7_img_alt")} />
+                <p>{t("home_feature7_text")}</p>
               </div>
-
               <div className="feature">
-                <img src={IconContainer10} alt="Icon Container" />
-                <p>Payment Solutions</p>
+                <img src={IconContainer10} alt={t("home_feature8_img_alt")} />
+                <p>{t("home_feature8_text")}</p>
               </div>
             </div>
           </div>
@@ -284,14 +260,9 @@ export default function Home() {
         <div className="sectionHeader">
           <div className="text">
             <h2>
-              Our <span>Features</span>
+              {t("home_features_title")} <span>{t("home_features_span")}</span>
             </h2>
-            <p>
-              Experience a host of powerful features at YourBank, including
-              seamless online banking, secure transactions, and personalized
-              financial insights, all designed to enhance your banking
-              experience
-            </p>
+            <p>{t("home_features_paragraph")}</p>
           </div>
         </div>
 
@@ -301,19 +272,19 @@ export default function Home() {
               className={activeFeature === "onlineBanking" ? "active" : ""}
               onClick={() => setActiveFeature("onlineBanking")}
             >
-              Online Banking
+              {t("home_feature_btn_online")}
             </button>
             <button
               className={activeFeature === "financial" ? "active" : ""}
               onClick={() => setActiveFeature("financial")}
             >
-              Financial Tools
+              {t("home_feature_btn_financial")}
             </button>
             <button
               className={activeFeature === "support" ? "active" : ""}
               onClick={() => setActiveFeature("support")}
             >
-              Customer Support
+              {t("home_feature_btn_support")}
             </button>
           </div>
 
@@ -330,9 +301,7 @@ export default function Home() {
       </div>
 
       <FAQ />
-
       <OurTestimonials />
-
       <OpenAccount />
     </div>
   );

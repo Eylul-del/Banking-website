@@ -99,7 +99,7 @@ main .colOne {
 }
 
 .mainSub2 p {
-  width: inherit;
+  width: 80%;
 }
 
 .colOne .mainTitle h1 span {
@@ -130,7 +130,7 @@ main .colTwo {
   display: flex;
   align-items: flex-end;
   color: white;
-  z-index: 2;
+  z-index: 2 !important;
   border-radius: 20px;
   box-sizing: border-box;
   padding: 20px;
@@ -154,7 +154,7 @@ main .monthIncomeCard {
   position: absolute;
   top: -45px;
   left: -60px;
-  width: 210px;
+  width: 250px;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -171,7 +171,7 @@ main .monthIncomeCard {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 150px;
+  width: fit-content;
   height: 100%;
   letter-spacing: 0.5px;
   color: white;
@@ -369,7 +369,6 @@ main .colTwo .mainTransactionsCard .countries {
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* When active (clicked) */
 .btns button.active {
   background-color: var(--green65) !important;
   color: #000 !important;
@@ -1573,6 +1572,7 @@ main .colTwo .mainTransactionsCard .countries {
   .sectionContent .featuresContainer div {
     width: 100% !important;
     display: block;
+    margin-top: 20px;
   }
 
   .popularQuestions {

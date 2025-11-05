@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/style/Carees.css"; // or Security.css if preferred
+import "../components/style/Carees.css";
 
 export default function OurBenefitsCards({ Icon, title, description }) {
   return (
