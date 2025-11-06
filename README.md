@@ -16,44 +16,9 @@ Accessibility and UI/UX attention
 
 Front-end: React, TypeScript, Vite
 
-Styling: CSS / SASS (or Tailwind if you used it)
+Styling: CSS
 
-State Management: React Hooks / Context API (if used)
-
-i18n: react-i18next for multi-language support
-
-🚀 Features
-
-Responsive Design: Works seamlessly on desktop and mobile devices
-
-Language Selector: Switch between 5 languages, including RTL support for Arabic
-
-Interactive UI Components: Dropdowns, buttons, modals, etc.
-
-Clean & Modern Design: Professional banking look and feel
-
-Accessibility Friendly: Keyboard navigation, alt tags, and proper ARIA attributes
-🏦 YourBank – Responsive Banking Website
-Overview
-
-A clean, responsive banking website built with React, TypeScript, and Vite.
-The site demonstrates modern front-end development skills, including:
-
-Multi-language support (Arabic, English, Turkish, Deutsch, French)
-
-Responsive layout for desktop and mobile
-
-Dynamic components like dropdown menus, modals, and interactive sections
-
-Accessibility and UI/UX attention
-
-🛠 Tech Stack
-
-Front-end: React, TypeScript, Vite
-
-Styling: CSS / SASS (or Tailwind if you used it)
-
-State Management: React Hooks / Context API (if used)
+State Management: React Hooks
 
 i18n: react-i18next for multi-language support
 
@@ -61,7 +26,7 @@ i18n: react-i18next for multi-language support
 
 Responsive Design: Works seamlessly on desktop and mobile devices
 
-Language Selector: Switch between 5 languages, including RTL support for Arabic
+Language Selector: Switch between 7 languages, including RTL support for Arabic
 
 Interactive UI Components: Dropdowns, buttons, modals, etc.
 
@@ -69,12 +34,26 @@ Clean & Modern Design: Professional banking look and feel
 
 Accessibility Friendly: Keyboard navigation, alt tags, and proper ARIA attributes
 
-📸 Screenshots
+## 📸 Screenshots
 
-Add screenshots of the homepage, mobile view, and dropdowns here
-Example:
+### Desktop Views
 
-Desktop View Mobile View
+![Desktop English View](/src/assets/ReadmeScreenshoots/mainEn.png)
+_Homepage in English_
+
+![Desktop RTL View](/src/assets/ReadmeScreenshoots/ar.png)
+_Homepage in Arabic (RTL)_
+
+![Desktop Dutch View](/src/assets/ReadmeScreenshoots/aboutDu.png)
+_About page in Dutch_
+
+### Mobile Views
+
+![Mobile English View](/src/assets/ReadmeScreenshoots/mainEnResponsive.png)
+_Responsive mobile layout_
+
+![Mobile French View](/src/assets/ReadmeScreenshoots/singUpFr.png)
+_Sign-up page in French_
 
 ⚡ How to Run Locally
 
@@ -94,67 +73,17 @@ npm install
 
 npm run dev
 
-Open your browser at http://localhost:5173 to see it live.
+Open your browser at http://localhost:5173
+to see it live.
 
-🌐 Live Demo
+## 🌐 Live Demo
 
-If deployed, include the link here (Vercel, Netlify, etc.)
-Live Demo
+[Primary Demo](https://banking-website-aq1w-git-main-sheymas-projects.vercel.app)  
+[Alternate Demo](https://banking-website-aq1w-c3lc4vwze-sheymas-projects.vercel.app)
 
-📝 Code Highlights
+## 👨‍💻 GitHub Code
 
-Fully responsive layout using CSS Grid/Flexbox
-
-Multi-language dropdown handled with react-i18next
-
-Clean and modular React component structure
-
-📂 Folder Structure
-src/
-├─ assets/ # Images, icons, flags
-├─ components/ # React components (Navbar, Footer, etc.)
-├─ pages/ # Page-level components
-├─ i18n.js # Multi-language configuration
-└─ App.tsx
-
-✨ Future Improvements
-
-Add more interactive features (forms, account dashboard)
-
-Unit testing for critical components
-
-Integrate a mock API for dynamic content
-📸 Screenshots
-
-Add screenshots of the homepage, mobile view, and dropdowns here
-Example:
-
-Desktop View Mobile View
-
-⚡ How to Run Locally
-
-# Clone the repository
-
-git clone https://github.com/Eylul-del/Banking-website.git
-
-# Go into the project folder
-
-cd Banking-website
-
-# Install dependencies
-
-npm install
-
-# Run the development server
-
-npm run dev
-
-Open your browser at http://localhost:5173 to see it live.
-
-🌐 Live Demo
-
-If deployed, include the link here (Vercel, Netlify, etc.)
-Live Demo
+[Repository Link](https://github.com/Eylul-del/Banking-website)
 
 📝 Code Highlights
 
@@ -170,12 +99,3 @@ src/
 ├─ components/ # React components (Navbar, Footer, etc.)
 ├─ pages/ # Page-level components
 ├─ i18n.js # Multi-language configuration
-└─ App.tsx
-
-✨ Future Improvements
-
-Add more interactive features (forms, account dashboard)
-
-Unit testing for critical components
-
-Integrate a mock API for dynamic content
