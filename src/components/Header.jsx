@@ -56,7 +56,6 @@ export default function Header() {
         <img src={HomeCorner} alt={t("header_home_corner")} />
       </div>
 
-      {/* Desktop */}
       {!isMobile && (
         <nav className="navDesktop">
           <div className="logo">
@@ -93,7 +92,6 @@ export default function Header() {
         </nav>
       )}
 
-      {/* Mobile */}
       {isMobile && (
         <>
           <div className="mobileHeader">
