@@ -12,6 +12,7 @@ import flagEN from "../assets/images/icon/en.png";
 import flagRU from "../assets/images/icon/ru.png";
 import flagDU from "../assets/images/icon/du.png";
 import flagFR from "../assets/images/icon/fr.png";
+import LanguageDropdown from "./LanguageDropdown";
 
 const languages = [
   { code: "ar", name: "العربية", flag: flagAR },
@@ -25,32 +26,25 @@ const languages = [
 export default function Header() {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [selectedLang, setSelectedLang] = useState(
     i18n.language?.split("-")[0] || "en"
   );
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // adjust breakpoint
 
-  // Update direction for RTL languages
-  useEffect(() => {
-    if (i18n.language === "ar") {
-      document.documentElement.dir = "rtl";
-    } else {
-      document.documentElement.dir = "ltr";
-    }
-  }, [i18n.language]);
-
-  // Handle window resize for mobile detection
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Language change handler
-  const handleSelect = (lang) => {
+  useEffect(() => {
+    document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
+  }, [i18n.language]);
+
+  const handleMobileSelect = (lang) => {
     i18n.changeLanguage(lang.code);
     setSelectedLang(lang.code);
-    setIsOpen(false); // close mobile menu if open
+    setIsOpen(false);
   };
 
   return (
@@ -59,7 +53,7 @@ export default function Header() {
         <img src={HomeCorner} alt={t("header_home_corner")} />
       </div>
 
-      {/* Desktop Navigation */}
+      {/* Desktop */}
       {!isMobile && (
         <nav className="navDesktop">
           <div className="logo">
@@ -90,28 +84,13 @@ export default function Header() {
               <Link to="/login">{t("nav_login")}</Link>
             </li>
             <li>
-              {/* Desktop dropdown */}
-              <div className="desktopDropdown">
-                <img
-                  src={languages.find((l) => l.code === selectedLang)?.flag}
-                  alt={selectedLang}
-                  className="selectedFlag"
-                />
-                <ul className="desktopLangsList">
-                  {languages.map((lang) => (
-                    <li key={lang.code} onClick={() => handleSelect(lang)}>
-                      <img src={lang.flag} alt={lang.name} />
-                      <span>{lang.name}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <LanguageDropdown i18n={i18n} />
             </li>
           </ul>
         </nav>
       )}
 
-      {/* Mobile Header */}
+      {/* Mobile */}
       {isMobile && (
         <>
           <div className="mobileHeader">
@@ -156,8 +135,8 @@ export default function Header() {
                   {t("nav_login")}
                 </Link>
               </li>
+
               <li>
-                {/* Mobile flags side by side */}
                 <ul
                   className="mobileLangsList"
                   style={{
@@ -183,7 +162,7 @@ export default function Header() {
                               : "2px solid transparent",
                           borderRadius: "50%",
                         }}
-                        onClick={() => handleSelect(lang)}
+                        onClick={() => handleMobileSelect(lang)}
                       />
                     </li>
                   ))}
