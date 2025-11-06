@@ -12,6 +12,8 @@ import flagEN from "../assets/images/icon/en.png";
 import flagRU from "../assets/images/icon/ru.png";
 import flagDU from "../assets/images/icon/du.png";
 import flagFR from "../assets/images/icon/fr.png";
+import flagES from "../assets/images/icon/es.png";
+
 import LanguageDropdown from "./LanguageDropdown";
 
 const languages = [
@@ -21,6 +23,7 @@ const languages = [
   { code: "de", name: "Deutsch", flag: flagDU },
   { code: "ru", name: "Русский", flag: flagRU },
   { code: "fr", name: "Français", flag: flagFR },
+  { code: "es", name: "Español", flag: flagES },
 ];
 
 export default function Header() {
@@ -158,7 +161,7 @@ export default function Header() {
                           cursor: "pointer",
                           border:
                             lang.code === selectedLang
-                              ? "2px solid #007BFF"
+                              ? "3px solid #caff33"
                               : "2px solid transparent",
                           borderRadius: "50%",
                         }}

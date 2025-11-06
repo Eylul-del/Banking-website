@@ -12,6 +12,7 @@ import flagEN from "../assets/images/icon/en.png";
 import flagDE from "../assets/images/icon/du.png";
 import flagRU from "../assets/images/icon/ru.png";
 import flagFR from "../assets/images/icon/fr.png";
+import flagES from "../assets/images/icon/es.png";
 
 const languages = [
   { code: "ar", name: "العربية", short: "AR", flag: flagAR },
@@ -20,6 +21,7 @@ const languages = [
   { code: "de", name: "Deutsch", short: "DE", flag: flagDE },
   { code: "ru", name: "Русский", short: "RU", flag: flagRU },
   { code: "fr", name: "Français", short: "FR", flag: flagFR },
+  { code: "es", name: "Español", short: "ES", flag: flagES },
 ];
 
 export default function LanguageDropdown({ i18n }) {

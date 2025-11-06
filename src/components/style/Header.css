@@ -421,15 +421,19 @@ body[dir="rtl"] .logo h2 {
     align-items: center;
     margin-left: -20px !important;
     margin-top: 0 !important;
-    min-width: 100% !important;
+    min-width: 90% !important;
+    max-width: 99%;
+    gap: 0 !important;
     height: fit-content !important;
   }
+
   .mobileLangsList li {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     max-height: 40px;
-    max-width: 70px;
+    min-width: 50px;
+    max-width: 60px !important;
     border: none !important;
   }
 

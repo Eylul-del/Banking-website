@@ -160,7 +160,7 @@ export default function Careers() {
         <div className="sectionHeader">
           <div className="text">
             <h2>
-              <span>{t("careers_jobs_title_span")}</span>{" "}
+              <span>{t("careers_jobs_title_span")}</span>
               {t("careers_jobs_title")}
             </h2>
             <p>{t("careers_jobs_paragraph")}</p>

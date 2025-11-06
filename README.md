@@ -1,78 +1,181 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+🏦 YourBank – Responsive Banking Website
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive banking website built with React, TypeScript, and Vite.
+The site demonstrates modern front-end development skills, including:
 
-Currently, two official plugins are available:
+Multi-language support (Arabic, English, Turkish, Deutsch, French)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive layout for desktop and mobile
 
-## React Compiler
+Dynamic components like dropdown menus, modals, and interactive sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Accessibility and UI/UX attention
 
-## Expanding the ESLint configuration
+🛠 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Front-end: React, TypeScript, Vite
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Styling: CSS / SASS (or Tailwind if you used it)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+State Management: React Hooks / Context API (if used)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+i18n: react-i18next for multi-language support
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🚀 Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Responsive Design: Works seamlessly on desktop and mobile devices
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# Banking-Website
-Banking Website
->>>>>>> d9571c579058dd33fa01b231598e2c49b7a96b3c
+Language Selector: Switch between 5 languages, including RTL support for Arabic
+
+Interactive UI Components: Dropdowns, buttons, modals, etc.
+
+Clean & Modern Design: Professional banking look and feel
+
+Accessibility Friendly: Keyboard navigation, alt tags, and proper ARIA attributes
+🏦 YourBank – Responsive Banking Website
+Overview
+
+A clean, responsive banking website built with React, TypeScript, and Vite.
+The site demonstrates modern front-end development skills, including:
+
+Multi-language support (Arabic, English, Turkish, Deutsch, French)
+
+Responsive layout for desktop and mobile
+
+Dynamic components like dropdown menus, modals, and interactive sections
+
+Accessibility and UI/UX attention
+
+🛠 Tech Stack
+
+Front-end: React, TypeScript, Vite
+
+Styling: CSS / SASS (or Tailwind if you used it)
+
+State Management: React Hooks / Context API (if used)
+
+i18n: react-i18next for multi-language support
+
+🚀 Features
+
+Responsive Design: Works seamlessly on desktop and mobile devices
+
+Language Selector: Switch between 5 languages, including RTL support for Arabic
+
+Interactive UI Components: Dropdowns, buttons, modals, etc.
+
+Clean & Modern Design: Professional banking look and feel
+
+Accessibility Friendly: Keyboard navigation, alt tags, and proper ARIA attributes
+
+📸 Screenshots
+
+Add screenshots of the homepage, mobile view, and dropdowns here
+Example:
+
+Desktop View Mobile View
+
+⚡ How to Run Locally
+
+# Clone the repository
+
+git clone https://github.com/Eylul-del/Banking-website.git
+
+# Go into the project folder
+
+cd Banking-website
+
+# Install dependencies
+
+npm install
+
+# Run the development server
+
+npm run dev
+
+Open your browser at http://localhost:5173 to see it live.
+
+🌐 Live Demo
+
+If deployed, include the link here (Vercel, Netlify, etc.)
+Live Demo
+
+📝 Code Highlights
+
+Fully responsive layout using CSS Grid/Flexbox
+
+Multi-language dropdown handled with react-i18next
+
+Clean and modular React component structure
+
+📂 Folder Structure
+src/
+├─ assets/ # Images, icons, flags
+├─ components/ # React components (Navbar, Footer, etc.)
+├─ pages/ # Page-level components
+├─ i18n.js # Multi-language configuration
+└─ App.tsx
+
+✨ Future Improvements
+
+Add more interactive features (forms, account dashboard)
+
+Unit testing for critical components
+
+Integrate a mock API for dynamic content
+📸 Screenshots
+
+Add screenshots of the homepage, mobile view, and dropdowns here
+Example:
+
+Desktop View Mobile View
+
+⚡ How to Run Locally
+
+# Clone the repository
+
+git clone https://github.com/Eylul-del/Banking-website.git
+
+# Go into the project folder
+
+cd Banking-website
+
+# Install dependencies
+
+npm install
+
+# Run the development server
+
+npm run dev
+
+Open your browser at http://localhost:5173 to see it live.
+
+🌐 Live Demo
+
+If deployed, include the link here (Vercel, Netlify, etc.)
+Live Demo
+
+📝 Code Highlights
+
+Fully responsive layout using CSS Grid/Flexbox
+
+Multi-language dropdown handled with react-i18next
+
+Clean and modular React component structure
+
+📂 Folder Structure
+src/
+├─ assets/ # Images, icons, flags
+├─ components/ # React components (Navbar, Footer, etc.)
+├─ pages/ # Page-level components
+├─ i18n.js # Multi-language configuration
+└─ App.tsx
+
+✨ Future Improvements
+
+Add more interactive features (forms, account dashboard)
+
+Unit testing for critical components
+
+Integrate a mock API for dynamic content
