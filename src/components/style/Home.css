@@ -1353,9 +1353,10 @@ main .colTwo .mainTransactionsCard .countries {
 
   .colOne {
     margin-left: 0 !important;
+    margin-bottom: 30px;
     text-align: center;
-    width: 90% !important;
-    height: 600px !important;
+    width: 100% !important;
+    height: fit-content !important;
   }
 
   .mainSub1 {
@@ -1372,6 +1373,7 @@ main .colTwo .mainTransactionsCard .countries {
   .mainSub2 p {
     font-size: 14px;
     line-height: 22px;
+    width: 100%;
   }
 
   .openAccount {
@@ -1419,9 +1421,9 @@ main .colTwo .mainTransactionsCard .countries {
   .supportedCurrency {
     position: static;
     width: 90%;
-    height: auto;
+    height: auto !important;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 0px;
     margin-top: 20px;
   }
 
@@ -1460,6 +1462,11 @@ main .colTwo .mainTransactionsCard .countries {
   .sectionHeader .text h2 {
     text-align: center;
     margin: 20px auto;
+  }
+
+  .ourFeatures .sectionHeader p,
+  .sectionHeader p {
+    width: 100%;
   }
 
   .ourProducts .sectionHeader .btns,

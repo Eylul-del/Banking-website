@@ -1,36 +1,37 @@
 :root {
-  --green60: #CAFF33;
-  --green65: #D1FF4D;
-  --green70: #D8FF66;
+  --green60: #caff33;
+  --green65: #d1ff4d;
+  --green70: #d8ff66;
   --darkGreen70: #d9ff6670;
-  --green80: #E5FF99;
-  --green90: #F2FFCC;
-  --green95: #F8FFE5;
-  --green97: #FBFFF0;
-  --green99: #FEFFFA;
+  --green80: #e5ff99;
+  --green90: #f2ffcc;
+  --green95: #f8ffe5;
+  --green97: #fbfff0;
+  --green99: #fefffa;
 
-  --white90: #E4E4E7;
-  --white95: #F1F1F3;
-  --white97: #F7F7F8;
-  --white99: #FCFCFD;
+  --white90: #e4e4e7;
+  --white95: #f1f1f3;
+  --white97: #f7f7f8;
+  --white99: #fcfcfd;
 
-  --gray10: #1A1A1A;
-  --gray11: #1C1C1C;
+  --gray10: #1a1a1a;
+  --gray11: #1c1c1c;
   --gray15: #262626;
   --gray20: #333333;
-  --gray30: #4C4C4D;
-  --gray35: #59595A;
+  --gray30: #4c4c4d;
+  --gray35: #59595a;
   --gray40: #656567;
-  --gray60: #98989A;
-  --gray70: #B3B3B3;
-  --gray75: #BFBFBF;
-} 
+  --gray60: #98989a;
+  --gray70: #b3b3b3;
+  --gray75: #bfbfbf;
+}
 
 * {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden !important;
   width: 100%;
   margin: 0;
@@ -43,13 +44,20 @@ html, body {
   height: auto !important;
 }
 
-img, video, iframe {
+img,
+video,
+iframe {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-.sectionContent, .sectionCards, .row, .card, .rowImg, .rowTextContent {
+.sectionContent,
+.sectionCards,
+.row,
+.card,
+.rowImg,
+.rowTextContent {
   max-width: 100%;
   overflow: hidden;
 }
@@ -59,288 +67,287 @@ img, video, iframe {
   overflow-x: hidden;
 }
 
-.securityMain .mainImg{
-    height: 550px;
+.securityMain .mainImg {
+  height: 550px;
 }
 
-.protection{
-    margin: 30px auto 100px;
+.protection {
+  margin: 30px auto 100px;
 }
 
 .protection .card {
-    height: 300px !important;
-    padding: 30px !important;
+  height: 300px !important;
+  padding: 30px !important;
 }
 
 .card .title {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 2560px) {
+  .securityMain {
+    position: relative;
+    width: 90%;
+    margin: 50px auto !important;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 75vh;
+  }
+
+  .securityMain .mainTextcontent {
     gap: 20px;
+    width: 45%;
+    height: 65% !important;
+    position: relative;
+    top: -100px !important;
+    left: 5% !important;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .mainTextcontent p {
+    font-size: 2.3rem;
+  }
+
+  .securityMain .mainImg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80% !important;
+  }
+
+  .securityMain .mainImg img {
     width: 100%;
+    height: 100%;
+    top: 0px !important;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+
+  .protection {
+    margin: 130px auto;
+  }
+
+  .sectionHeader h2 {
+    font-size: 3rem !important;
+  }
+
+  .sectionHeader p {
+    font-size: 2rem !important;
+    line-height: 150%;
+  }
+
+  .protection .sectionCards .card {
+    height: 550px !important;
+  }
+
+  .sectionCards .card .title {
+    align-items: center;
+  }
+
+  .protection .sectionCards .card .title img {
+    min-height: 150px !important;
+    min-width: 150px !important;
+  }
+
+  .sectionCards .card .title h3 {
+    font-size: 2.2rem;
+  }
+
+  .sectionCards .card .cardContent p {
+    font-size: 2rem;
+  }
 }
 
-@media (max-width:2560px) {
-    .securityMain{
-        position: relative;
-        width: 90%;
-        margin: 50px auto !important;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
-        min-height: 75vh;
-    }  
-    
-    .securityMain .mainTextcontent{
-        gap: 20px;
-        width: 45%;
-        height: 65% !important;
-        position: relative;
-        top: -100px !important;
-        left: 5% !important;
-        box-sizing: border-box;
-        padding: 20px 50px;
-    }
+@media (max-width: 1920px) {
+  .securityMain {
+    max-height: 60vh !important;
+  }
+  .securityMain .mainImg {
+    top: 50px !important;
+  }
 
-    .mainTextcontent p{
-        font-size: 2.3rem;
-    }
+  .securityMain .mainImg img {
+    top: 0px !important;
+    height: 100% !important;
+  }
 
-    .securityMain .mainImg{
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height:80% !important;
-    }
+  .securityMain .mainTextcontent {
+    top: 0 !important;
+  }
 
-    .securityMain .mainImg img{
-        width: 100%;
-        height: 100%;
-        top: 0px !important;
-        object-fit: contain;
-        border-radius: 20px;
-    }
+  .protection .sectionCards .card {
+    height: auto !important;
+  }
 
-    .protection{
-        margin: 130px auto;
-    }
+  .protection .sectionCards .card .title img {
+    min-height: 100px !important;
+    min-width: 100px !important;
+  }
 
-    .sectionHeader h2{
-        font-size: 3rem !important;
-    }
-
-    .sectionHeader p{
-        font-size: 2rem !important;
-        line-height: 150%;
-    }
-
-    .protection .sectionCards .card{
-        height: 550px !important;
-    }
-
-    .sectionCards .card .title {
-        align-items: center;
-    }
-
-    .protection .sectionCards .card .title img{
-        min-height: 150px !important;
-        min-width:  150px !important;
-    }
-
-    .sectionCards .card .title h3{
-        font-size: 2.2rem;
-    }
-
-    .sectionCards .card .cardContent p{
-        font-size: 2rem;
-    }
+  .protection .sectionCards .card .title h3 {
+    font-size: 1.5rem;
+  }
 }
 
-@media (max-width:1920px) {
-    .securityMain{
-        max-height: 60vh !important;
-    }
-    .securityMain .mainImg{
-        top: 50px !important;
-    }
+@media (max-width: 1025px) {
+  .securityMain .mainTextcontent {
+    height: auto !important;
+    width: 55%;
+    left: 0px !important;
+  }
 
-    .securityMain .mainImg img{
-        top: 0px !important;
-        height: 100% !important;
-    }
+  .securityMain .mainImg {
+    width: 60% !important;
+    height: 90%;
+  }
 
-    .securityMain .mainTextcontent{
-        top: 0 !important;
-    }
+  .securityMain .mainImg img {
+    height: 100%;
+  }
 
-    .protection .sectionCards .card{
-        height: auto !important;
-    }
+  .sectionHeader .text h2 {
+    font-size: 1.7rem !important;
+  }
 
-    .protection .sectionCards .card .title img{
-        min-height: 100px !important;
-        min-width: 100px !important;
-    }
+  .sectionHeader .text p {
+    font-size: 1rem !important;
+  }
 
-    .protection .sectionCards .card .title h3{
-        font-size: 1.5rem;
-    }
+  .sectionCards .card .title img {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .card .title h3 {
+    font-size: 1.1rem !important;
+  }
+
+  .sectionCards .card .cardContent p {
+    font-size: 1rem !important;
+  }
 }
 
-@media (max-width:1025px) {
-    .securityMain .mainTextcontent{
-        height: auto !important;
-        width: 55%;
-        left: 0px !important;
-    }
+@media (max-width: 770px) {
+  .securityMain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh !important; /* let it grow naturally */
+    gap: 30px;
+  }
 
-    .securityMain .mainImg{
-        width: 60% !important;
-        height: 90%;
-    }
+  .securityMain .mainImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+  }
 
-    .securityMain .mainImg img{
-        height: 100%;
-    }
+  .securityMain .mainImg img {
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
 
-    .sectionHeader .text h2{
-        font-size: 1.7rem !important;
-    }
+  .securityMain .mainTextcontent {
+    min-width: 100% !important;
+    left: 0 !important;
+    top: 150px !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+    max-height: 40vh !important;
+    min-height: 40vh !important;
+    padding: 0 20px;
+    border-radius: 30px;
+  }
 
-    .sectionHeader .text p{
-        font-size: 1rem !important;
-    }
+  .sectionHeader .text h2 {
+    font-size: 1.5rem !important;
+  }
 
-    .sectionCards .card .title img{
-        height: 30px !important;
-        width: 30px !important;
-    }
+  .sectionHeader .text p {
+    font-size: 0.95rem !important;
+  }
 
-    .card .title h3{
-        font-size: 1.1rem !important;
-    }
+  .protection .sectionCards .card {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+  }
 
-    .sectionCards .card .cardContent p{
-        font-size: 1rem !important;
-    }
+  .protection .sectionCards .card .title img {
+    min-height: 70px !important;
+    min-width: 70px !important;
+  }
+
+  .card .title h3 {
+    font-size: 1rem !important;
+  }
+
+  .sectionCards .card .cardContent p {
+    font-size: 0.9rem !important;
+    line-height: 180% !important;
+  }
 }
 
-@media (max-width:770px) {
-    .securityMain{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 90vh !important; /* let it grow naturally */
-        gap: 30px;
-    }
+@media (max-width: 426px) {
+  .securityMain {
+    width: 100%;
+    height: auto !important;
+    min-height: 95vh !important;
+    max-height: 120vh !important;
+    margin: 50px auto !important;
+    position: relative;
+    padding: 20px !important;
+    overflow: hidden !important;
+  }
 
-    .securityMain .mainImg{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100% !important;
-    }
+  .securityMain .mainTextcontent {
+    width: 90% !important;
+    margin: 0 !important;
+    max-height: 500px !important;
+    min-height: 350px !important;
+    height: auto !important;
+    position: relative;
+    top: 120px !important;
+    z-index: 1;
+  }
 
-    .securityMain .mainImg img {
-      width: 100% !important;
-      height: auto;
-      margin: 0 auto;
-      display: block;
-    }
+  .securityMain .mainImg img {
+    margin: 0 !important;
+    height: inherit !important;
+    width: inherit;
+    position: absolute;
+    top: -70px !important;
+    z-index: 1;
+    order: 0 !important;
+  }
 
-    .securityMain .mainTextcontent {
-      min-width: 100% !important;
-      left: 0 !important;
-      top: 150px !important;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      height: auto !important;
-      max-height: 40vh !important;
-      min-height: 40vh !important;
-      padding: 0 20px;
-      border-radius: 30px;
-    }
+  .protection {
+    margin: 50px auto 0;
+  }
 
-    .sectionHeader .text h2{
-        font-size: 1.5rem !important;
-    }
+  .protection .sectionCards {
+    gap: 25px !important;
+    margin: 50px auto !important;
+  }
 
-    .sectionHeader .text p{
-        font-size: 0.95rem !important;
-    }
+  .protection .card {
+    width: 90% !important;
+    height: auto !important;
+  }
 
-    .protection .sectionCards .card{
-        min-height: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between !important;
-    }
-
-    .protection .sectionCards .card .title img{
-        min-height: 70px !important;
-        min-width: 70px !important;
-    }
-
-    .card .title h3{
-        font-size: 1rem !important;
-    }
-
-    .sectionCards .card .cardContent p{
-        font-size: 0.9rem !important;
-        line-height: 180% !important;
-    }
-}
-
-@media (max-width:426px) {
-
-    .securityMain{
-        width: 100%;
-        height: auto !important;
-        min-height: 95vh !important;
-        max-height: 121vh !important;
-        margin: 50px auto !important;
-        position: relative;
-        padding: 20px !important;
-    }
-
-    .securityMain .mainTextcontent{
-      width: 90% !important;
-      margin: 0 !important;
-      max-height: 500px !important;
-      min-height: 350px !important;
-      height: 360px !important;
-      position: relative;
-      top: 120px !important;
-      z-index: 1;
-    }
-
-    .securityMain .mainImg img{
-      margin: 0 !important;
-      height: inherit !important;
-      width: inherit;
-      position: absolute;
-      top: -70px !important;
-      z-index: 1;
-      order: 0 !important;
-    }
-
-    .protection {
-        margin: 50px auto 0;
-    }
-
-    .protection .sectionCards{
-        gap: 25px !important;
-        margin: 50px auto !important;
-    }
-
-    .protection .card{
-        width: 90% !important;
-        height: auto !important;
-    }
-
-    .protection .card .cardContent p{
-        font-size: 1rem !important;
-    }
-
+  .protection .card .cardContent p {
+    font-size: 1rem !important;
+  }
 }

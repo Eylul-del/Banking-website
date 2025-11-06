@@ -83,7 +83,7 @@ export default function Header() {
             <li>
               <Link to="/login">{t("nav_login")}</Link>
             </li>
-            <li>
+            <li className="langLi">
               <LanguageDropdown i18n={i18n} />
             </li>
           </ul>

@@ -84,10 +84,11 @@ iframe {
   justify-content: center;
   align-items: center;
   height: 100% !important;
+  z-index: 322 !important;
 }
 
-body[dir="rtl"] .aboutMain .mainImg {
-  border: 1px solid red;
+.aboutMain .mainImg img {
+  z-index: 0 !important;
 }
 
 .aboutMain .mainTextcontent {
@@ -99,6 +100,7 @@ body[dir="rtl"] .aboutMain .mainImg {
   height: 100%;
   position: relative;
   top: 0 !important;
+  z-index: 345;
 }
 
 .aboutMain .mainTextcontent h1 {
@@ -584,7 +586,7 @@ body[dir="rtl"] .aboutMain .mainImg {
     height: 360px !important;
     position: relative;
     top: 100px !important;
-    z-index: 1;
+    z-index: 345;
   }
 
   .aboutMain .mainImg img {

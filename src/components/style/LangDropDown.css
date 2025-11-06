@@ -3,7 +3,13 @@
   display: inline-block;
   font-family: "Poppins", sans-serif;
   width: 170px;
-  transform: translateX(30px);
+  margin-inline-start: 30px;
+  z-index: 999999999 !important;
+}
+
+body[dir="rtl"] .langDropdown {
+  margin-inline-start: 0;
+  margin-inline-end: 30px;
 }
 
 .langSelected {
@@ -32,7 +38,7 @@
   border-radius: 50%;
 }
 
-.langMenu {
+/* .langMenu {
   position: absolute;
   top: calc(100% + 8px);
   left: 50%;
@@ -46,6 +52,20 @@
   z-index: 100;
   border: 1px solid #333;
   color: white;
+  z-index: 999999999 !important;
+} */
+
+.langMenu {
+  position: fixed; /* instead of absolute */
+  top: 70px; /* adjust this so it matches your header height */
+  inset-inline-end: 40px; /* pushes it from the right in LTR, auto-adjusts in RTL */
+  transform: none; /* remove the translateX(-50%) */
+  width: 200px;
+  background: #1c1c1c;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  z-index: 999999999 !important;
 }
 
 .langTitle {

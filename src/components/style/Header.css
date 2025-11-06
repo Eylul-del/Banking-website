@@ -36,7 +36,7 @@ body {
 }
 
 body[dir="rtl"] .navDesktop ul.centerNav {
-  flex-direction: row-reverse !important; /* reverse nav links */
+  flex-direction: row-reverse !important;
 }
 
 body[dir="rtl"] .logo h2 {
@@ -44,7 +44,7 @@ body[dir="rtl"] .logo h2 {
   margin-right: 10px;
 }
 
-header {
+.header {
   width: 96% !important;
   margin-top: 0 !important;
   max-height: 100px !important;
@@ -52,7 +52,7 @@ header {
 }
 
 body[dir="rtl"] .navDesktop ul.centerNav {
-  flex-direction: row-reverse; /* reverse nav links */
+  flex-direction: row-reverse;
 }
 
 body[dir="rtl"] .logo h2 {
@@ -135,10 +135,6 @@ body[dir="rtl"] .logo h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.rightNav .desktopDropdown {
-  border: 1px solid red;
 }
 
 .desktopDropdown li img {

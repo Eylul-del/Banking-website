@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { createPortal } from "react-dom";
+
 import "../i18n.js";
 import "./style/LangDropDown.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+
 import flagAR from "../assets/images/icon/ar.png";
 import flagTR from "../assets/images/icon/tr.png";
 import flagEN from "../assets/images/icon/en.png";
@@ -45,31 +48,35 @@ export default function LanguageDropdown({ i18n }) {
         </span>
       </div>
 
-      {open && (
-        <div className="langMenu" onClick={(e) => e.stopPropagation()}>
-          <p className="langTitle">Select Language 🌐</p>
-          <ul>
-            {languages.map((lang) => (
-              <li
-                key={lang.code}
-                onClick={() => handleSelect(lang)}
-                className={lang.code === selectedLang ? "active" : ""}
-              >
-                <div className="langInfo">
-                  <div>
-                    <img src={lang.flag} alt={lang.name} />
+      {open &&
+        createPortal(
+          <div className="langMenu" onClick={(e) => e.stopPropagation()}>
+            <p className="langTitle">Select Language 🌐</p>
+            <ul>
+              {languages.map((lang) => (
+                <li
+                  key={lang.code}
+                  onClick={() => handleSelect(lang)}
+                  className={lang.code === selectedLang ? "active" : ""}
+                >
+                  <div className="langInfo">
+                    <div>
+                      <img src={lang.flag} alt={lang.name} />
+                    </div>
+                    <div>
+                      <strong>{lang.name}</strong>
+                      <span>{lang.short}</span>
+                    </div>
                   </div>
-                  <div>
-                    <strong>{lang.name}</strong>
-                    <span>{lang.short}</span>
-                  </div>
-                </div>
-                {lang.code === selectedLang && <span className="check">✔</span>}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+                  {lang.code === selectedLang && (
+                    <span className="check">✔</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>,
+          document.body
+        )}
     </div>
   );
 }

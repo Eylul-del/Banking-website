@@ -1,227 +1,240 @@
 :root {
-  --green60: #CAFF33;
-  --green65: #D1FF4D;
-  --green70: #D8FF66;
-  --green80: #E5FF99;
-  --green90: #F2FFCC;
-  --green95: #F8FFE5;
-  --green97: #FBFFF0;
-  --green99: #FEFFFA;
+  --green60: #caff33;
+  --green65: #d1ff4d;
+  --green70: #d8ff66;
+  --green80: #e5ff99;
+  --green90: #f2ffcc;
+  --green95: #f8ffe5;
+  --green97: #fbfff0;
+  --green99: #fefffa;
 
-  --white90: #E4E4E7;
-  --white95: #F1F1F3;
-  --white97: #F7F7F8;
-  --white99: #FCFCFD;
+  --white90: #e4e4e7;
+  --white95: #f1f1f3;
+  --white97: #f7f7f8;
+  --white99: #fcfcfd;
 
-  --gray10: #1A1A1A;
-  --gray11: #1C1C1C;
+  --gray10: #1a1a1a;
+  --gray11: #1c1c1c;
   --gray15: #262626;
   --gray20: #333333;
-  --gray30: #4C4C4D;
-  --gray35: #59595A;
+  --gray30: #4c4c4d;
+  --gray35: #59595a;
   --gray40: #656567;
-  --gray60: #98989A;
-  --gray70: #B3B3B3;
-  --gray75: #BFBFBF;
+  --gray60: #98989a;
+  --gray70: #b3b3b3;
+  --gray75: #bfbfbf;
 }
 
-
-footer{
-    color: white;
-    background-color: var(--gray11);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 20px 0 0;
+footer {
+  color: white;
+  background-color: var(--gray11);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 0 0;
 }
 
-.footerNav{
-    width: 30%;
+.footerNav {
+  width: 30%;
 }
 
-.footerNav ul{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    list-style: none;
+.footerNav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
 }
 
-.footerNav ul li a{
-    border-radius: 20px;
-    padding: 10px 15px;
-    transition: 0.3s;
-    color: white;
-    text-decoration: none;
+.footerNav ul li a {
+  border-radius: 20px;
+  padding: 10px 15px;
+  transition: 0.3s;
+  color: white;
+  text-decoration: none;
 }
 
-.footerNav ul li a:hover{
-    background-color: var(--gray20);
-    color: var(--green60);
+.footerNav ul li a:hover {
+  background-color: var(--gray20);
+  color: var(--green60);
 }
 
-.contactAddresses{
-    height: 130px;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin: 30px auto;
-    border-top: 1px solid var(--gray20);
-    border-bottom: 1px solid var(--gray20);
+.contactAddresses {
+  height: 130px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 30px auto;
+  border-top: 1px solid var(--gray20);
+  border-bottom: 1px solid var(--gray20);
 }
 
-.address{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.address .icon{
-    color: var(--green60);
-    font-size: 25px;
+.address .icon {
+  color: var(--green60);
+  font-size: 25px;
 }
 
-.rightContainer{
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    box-sizing: border-box;
-    padding: 10px 30px;
-    margin: 30px auto;
-    border-radius: 40px;
-    border: 1px solid var(--gray20);
+.rightContainer {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  margin: 30px auto;
+  border-radius: 40px;
+  border: 1px solid var(--gray20);
 }
 
-.rightContainer .socialMedia{
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    font-size: 25px;
-    color: var(--white99);
+.rightContainer .socialMedia {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 25px;
+  color: var(--white99);
 }
 
-.socialMedia a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--green60);
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    color: var(--gray10);
-    padding: 5px;
+.socialMedia a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green60);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: var(--gray10);
+  padding: 5px;
 }
 
 .rightP,
-.privactAndTerms{
+.privactAndTerms {
+  color: var(--gray60);
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 770px) {
+  footer {
+    font-size: 0.9rem !important;
+  }
+  .footerNav {
+    left: 0;
+    margin: 0 auto !important;
+  }
+
+  .footerNav ul {
+    justify-content: center;
+  }
+
+  .rightContainer .socialMedia {
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    top: -30px;
+  }
+
+  .rightContainer .socialMedia a {
+    height: 40px;
+    width: 40px;
+  }
+
+  .rightP,
+  .privactAndTerms {
     color: var(--gray60);
-    letter-spacing: 1.5px;
+    font-size: 0.75rem;
+  }
 }
 
-@media (max-width:770px) {
-    footer{
-        font-size: 0.9rem !important;
-    }
-    .footerNav{
-        left: 0;
-        margin: 0 auto !important;
-    }
+@media (max-width: 426px) {
+  html,
+  footer,
+  body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
 
-    .footerNav ul {
-        justify-content: center;
-    }
+  .footerNav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 90%;
+    padding: 0 !important;
+    gap: 20px !important;
+  }
 
-    .rightContainer .socialMedia{
-        width: 15%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        top: -30px;
-    }
+  .footerNav li {
+    margin: 0 20px 0 0;
+    width: fit-content !important;
+  }
 
-    .rightContainer .socialMedia a{
-        height: 40px;
-        width: 40px;
-    }
-    
-    .rightP,
-    .privactAndTerms{
-        color: var(--gray60);
-        font-size: 0.75rem;
-    }
-}
+  .footerNav li a {
+    height: 100% !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+  .contactAddresses {
+    flex-wrap: wrap;
+    gap: 17px;
+    height: auto !important;
+    box-sizing: border-box;
+    padding: 10px;
+  }
 
-@media (max-width:426px) {
+  .contactAddresses .address {
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+  }
 
-    html,
-    footer,
-    body{
-        overflow-x: hidden !important;
-        width: 100% !important;
-    }
+  .address .icon {
+    font-size: 18px;
+  }
 
-    .footerNav{
-        width: fit-content;
-    }
+  .rightContainer {
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 130px;
+  }
 
-    .contactAddresses{
-        flex-wrap: wrap;
-        gap: 17px;
-        height: auto !important;
-        box-sizing: border-box;
-        padding: 10px;
-    }
+  .socialMedia {
+    width: 60% !important;
+    position: absolute;
+    top: -40px;
+    left: 20%;
+    box-sizing: border-box;
+    padding: 7px 25px;
+    border-radius: 40px;
+    border: 1px solid var(--gray20);
+    background-color: var(--gray11);
+  }
 
-    .contactAddresses .address{
-        width: fit-content;
-        height: 35px;
-        font-size: 15px;
-    }
+  .rightContainer .rightP,
+  .rightContainer .privactAndTerms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px !important;
+    line-height: 15px;
+  }
 
-    .address .icon{
-        font-size: 18px;
-    }
-
-    .rightContainer{
-        position: relative;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 130px;
-    }
-
-    .socialMedia{
-        width: 60% !important;
-        position: absolute;
-        top: -40px;
-        left: 20%;
-        box-sizing: border-box;
-        padding: 7px 25px;
-        border-radius: 40px;
-        border: 1px solid var(--gray20);
-        background-color: var(--gray11);
-    }
-
-    .rightContainer .rightP,
-    .rightContainer .privactAndTerms{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30px !important;
-        line-height: 15px;
-    }
-
-    .rightContainer .rightP{
-        margin-top: 20px;
-    }
+  .rightContainer .rightP {
+    margin-top: 20px;
+  }
 }
