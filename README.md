@@ -78,8 +78,7 @@ to see it live.
 
 ## 🌐 Live Demo
 
-[Primary Demo](https://banking-website-aq1w-git-main-sheymas-projects.vercel.app)  
-[Alternate Demo](https://banking-website-aq1w-c3lc4vwze-sheymas-projects.vercel.app)
+[Live Demo](https://banking-website-iip4.vercel.app)  
 
 ## 👨‍💻 GitHub Code
 
